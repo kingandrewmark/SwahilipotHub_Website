@@ -7,10 +7,10 @@ const Pricing = () => {
         <div className="section-title text-center">
           <span className="sub-content wow fadeInUp">
             <img src="assets/img/bale.png" alt="img" />
-            Pricing Package
+            Swahilipot Core Pillars
           </span>
           <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Popular Pricing For IT Consulting
+            Tech | Arts | Heritage
           </h2>
         </div>
         <div className="row">
@@ -23,7 +23,7 @@ const Pricing = () => {
                 <img src="assets/img/pricing-shape.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
-                <h3>Regular Plan</h3>
+                <h3>Technology</h3>
                 <p>For Small Businesses</p>
               </div>
               <ul className="pricing-list">
@@ -55,7 +55,7 @@ const Pricing = () => {
                 <img src="assets/img/pricing-shape-2.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
-                <h3>Business Plan</h3>
+                <h3>Creatives & Arts</h3>
                 <p>For Small Businesses</p>
               </div>
               <ul className="pricing-list">
@@ -87,7 +87,7 @@ const Pricing = () => {
                 <img src="assets/img/pricing-shape.png" alt="shape-img" />
               </div>
               <div className="pricing-header">
-                <h3>Professional Plan</h3>
+                <h3>Heritage</h3>
                 <p>For Small Businesses</p>
               </div>
               <ul className="pricing-list">

@@ -30,7 +30,7 @@ const Footer1 = () => {
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+              <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
             </Link>
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
@@ -58,17 +58,17 @@ const Footer1 = () => {
                     totae
                   </p>
                   <div className="social-icon d-flex align-items-center">
-                    <a href="#">
+                    <a href="https://www.facebook.com/Swahilipothub/">
                       <i className="fab fa-facebook-f" />
                     </a>
-                    <a href="#">
+                    <a href="https://twitter.com/swahilipothub">
                       <i className="fab fa-twitter" />
                     </a>
                     <a href="#">
-                      <i className="fab fa-vimeo-v" />
+                      <i className="fab fa-youtube" />
                     </a>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
+                    <a href="https://www.linkedin.com/company/swahilipot-hub">
+                      <i className="fab fa-linkedin" />
                     </a>
                   </div>
                 </div>
@@ -84,16 +84,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="service-details">Popular Services</Link>
+                    <Link href="service-details">About swahilipot</Link>
                   </li>
                   <li>
-                    <Link href="team-details">Team Member</Link>
+                    <Link href="team-details">Events</Link>
                   </li>
                   <li>
-                    <Link href="contact">Privacy &amp; Setting</Link>
+                    <Link href="contact">Contact</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Pricing Package</Link>
+                    <Link href="pricing">Blogs</Link>
                   </li>
                 </ul>
               </div>
@@ -113,8 +113,8 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <p>
-                        55 Main Street, 2nd block <br />
-                        Malborne, Australia
+                        Opp. Governor's Office,<br />
+                        Mombasa
                       </p>
                     </div>
                   </div>
@@ -123,8 +123,8 @@ const Footer1 = () => {
                       <i className="fas fa-envelope" />
                     </div>
                     <div className="content">
-                      <a href="mailto:info@example.com" className="link">
-                        info@example.com
+                      <a href="mailto:partnership@swahilipothub.co.ke" className="link">
+                      partnership@swahilipothub.co.ke
                       </a>
                     </div>
                   </div>
@@ -134,7 +134,7 @@ const Footer1 = () => {
                     </div>
                     <div className="content">
                       <h4>
-                        <a href="tel:00012345688">+000 (123) 456 88</a>
+                        <a href="tel:+254 11 4635505">+254 11 4635505</a>
                       </h4>
                     </div>
                   </div>
@@ -214,7 +214,7 @@ const Footer1 = () => {
                 <i className="far fa-angle-double-up" />
               </a>
               <p className="wow fadeInUp" data-wow-delay=".6s">
-                © <Link href="/">2024</Link> All Rights Reserved
+                © <Link href="/">2025</Link> All Rights Reserved
               </p>
             </div>
           </div>
