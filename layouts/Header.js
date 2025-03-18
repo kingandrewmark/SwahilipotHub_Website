@@ -61,10 +61,10 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
               <li>
-                      <Link href="program">About Swahilipot</Link>
+                      <Link href="/about/aboutus">About Swahilipot</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Our Origin Story</Link>
+                      <Link href="about/origin">Our Origin Story</Link>
                     </li>
               </ul>
             </li>
@@ -186,10 +186,10 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("About Us")}>
                     <li>
-                      <Link href="program">About Swahilipot</Link>
+                      <Link href="/about/aboutus">About Swahilipot</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Our Origin Story</Link>
+                      <Link href="/about/origin">Our Origin Story</Link>
                     </li>
                   </ul>
                   <a
