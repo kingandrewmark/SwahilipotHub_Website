@@ -75,19 +75,19 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
               <li>
-                      <Link href="program">Case Management</Link>
+                      <Link href="programs/case-management">Case Management</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Mombasa Tourism Innovation Lab</Link>
+                      <Link href="programs/mtourism-lab">Mombasa Tourism Innovation Lab</Link>
                     </li>
                     <li>
-                      <Link href="program">Events</Link>
+                      <Link href="programs/events">Events</Link>
                     </li>
                     <li>
                       <Link href="program-details">Campus Ambassador Program</Link>
                     </li>
                     <li>
-                      <Link href="program">Swahili Tech Woman</Link>
+                      <Link href="programs/swahili-tech">Swahili Tech Woman</Link>
                     </li>
               </ul>
             </li>
