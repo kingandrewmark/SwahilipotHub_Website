@@ -38,139 +38,8 @@ const Menu = ({ single, menu }) => {
       {single ? (
         <nav id="mobile-menu" className="d-none d-xl-block">
           <ul>
-            <li className="has-dropdown active menu-thumb">
-              <Link href="/">
-                Home
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu has-homemenu">
-                <li className="border-none">
-                  <div className="row g-4">
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-1.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <a href="index-one-page.html" className="theme-btn">
-                            One Page
-                          </a>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 01</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2  homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-2.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-2" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-two-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 02</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-3.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-3" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-three-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 03</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-4.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-4" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-four-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 04</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-5.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-5" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-five-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 05</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-6.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-6" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-six-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 06</h4>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </li>
-            <li className="has-dropdown active d-xl-none">
-              <Link href="/" className="border-none">
-                Home
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
-              </ul>
+            <li>
+              <Link href="/">Home</Link>
             </li>
             {singleMenu.map((menu) => (
               <li key={menu.id}>
@@ -182,212 +51,73 @@ const Menu = ({ single, menu }) => {
       ) : (
         <nav id="mobile-menu" className="d-none d-xl-block">
           <ul>
-            <li className="has-dropdown active menu-thumb">
-              <Link href="/">
-                Home
-                <i className="fas fa-angle-down" />
-              </Link>
-              <ul className="submenu has-homemenu">
-                <li className="border-none">
-                  <div className="row g-4">
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-1.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="/" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-one-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 01</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2  homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-2.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-2" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-two-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 02</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-3.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-3" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-three-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 03</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-4.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-4" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-four-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 04</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-5.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-5" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-five-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 05</h4>
-                      </div>
-                    </div>
-                    <div className="col-xl-2 homemenu">
-                      <div className="homemenu-thumb">
-                        <img src="assets/img/header/home-6.jpg" alt="img" />
-                        <div className="demo-button">
-                          <Link href="index-6" className="theme-btn">
-                            Multi Page
-                          </Link>
-                          <Link href="index-six-page" className="theme-btn">
-                            One Page
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="homemenu-content text-center">
-                        <h4 className="homemenu-title">Home 06</h4>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+            <li>
+              <Link href="/">Home</Link>
             </li>
-            <li className="has-dropdown active d-xl-none">
-              <Link href="/" className="border-none">
-                Home
+            <li className="has-dropdown">
+            <Link href="/about">
+                About Us
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
+              <li>
+                      <Link href="program">About Swahilipot</Link>
+                    </li>
+                    <li>
+                      <Link href="program-details">Our Origin Story</Link>
+                    </li>
               </ul>
             </li>
-            <li>
-              <Link href="about">About</Link>
-            </li>
-            <li>
-              <Link href="service-details">
+            <li className="has-dropdown">
+              <Link href="program-details">
                 Programs
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
-                <li>
-                  <Link href="service">Programs</Link>
-                </li>
-                <li>
-                  <Link href="service-details">Service Details</Link>
-                </li>
+              <li>
+                      <Link href="program">Case Management</Link>
+                    </li>
+                    <li>
+                      <Link href="program-details">Mombasa Tourism Innovation Lab</Link>
+                    </li>
+                    <li>
+                      <Link href="program">Events</Link>
+                    </li>
+                    <li>
+                      <Link href="program-details">Campus Ambassador Program</Link>
+                    </li>
+                    <li>
+                      <Link href="program">Swahili Tech Woman</Link>
+                    </li>
               </ul>
             </li>
             <li className="has-dropdown">
               <Link href="news">
-                Pages
+                Departments
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
-                <li className="has-dropdown">
-                  <Link href="project-details">
-                    Projects
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu">
-                    <li>
-                      <Link href="project">Projects</Link>
-                    </li>
-                    <li>
-                      <Link href="project-details">Project Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="has-dropdown">
-                  <Link href="team-details">
-                    Team
-                    <i className="fas fa-angle-down" />
-                  </Link>
-                  <ul className="submenu">
-                    <li>
-                      <Link href="team">Team</Link>
-                    </li>
-                    <li>
-                      <Link href="team-details">Team Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <Link href="pricing">Pricing Table</Link>
-                </li>
-                <li>
-                  <Link href="404">404 Page</Link>
-                </li>
+              <li>
+                <Link href="program">Communications</Link>
+              </li>
+              <li>
+                <Link href="program">Technology</Link>
+              </li>
+              <li>
+                <Link href="program">Engineering Team</Link>
+              </li>
+              <li>
+                <Link href="program">Creatives</Link>
+              </li>
+              <li>
+                <Link href="program">Community Experience</Link>
+              </li>
               </ul>
             </li>
             <li>
               <Link href="news">
                 Blog
-                <i className="fas fa-angle-down" />
               </Link>
-              <ul className="submenu">
-                <li>
-                  <Link href="news">Blog </Link>
-                </li>
-                <li>
-                  <Link href="news-details">Blog Details</Link>
-                </li>
-              </ul>
             </li>
             <li>
               <Link href="contact">Contact</Link>
@@ -437,34 +167,6 @@ const MobileMenu = ({ single, menu }) => {
                 onClick={() => activeMenuSet("home")}
               >
                 Home
-                <i className="fas fa-angle-down" />
-              </a>
-              <ul className="submenu" style={activeLi("home")}>
-                <li>
-                  <Link href="/">Home 01</Link>
-                </li>
-                <li>
-                  <Link href="index-2">Home 02</Link>
-                </li>
-                <li>
-                  <Link href="index-3">Home 03</Link>
-                </li>
-                <li>
-                  <Link href="index-4">Home 04</Link>
-                </li>
-                <li>
-                  <Link href="index-5">Home 05</Link>
-                </li>
-                <li>
-                  <Link href="index-6">Home 06</Link>
-                </li>
-              </ul>
-              <a
-                className="mean-expand"
-                href="#"
-                onClick={() => activeMenuSet("home")}
-              >
-                <i className="far fa-plus" />
               </a>
             </li>
             {single ? (
@@ -478,7 +180,25 @@ const MobileMenu = ({ single, menu }) => {
             ) : (
               <Fragment>
                 <li>
-                  <Link href="about">About</Link>
+                  <a href="#" onClick={() => activeMenuSet("About Us")}>
+                    About Us
+                    <i className="fas fa-angle-down" />
+                  </a>
+                  <ul className="submenu" style={activeLi("About Us")}>
+                    <li>
+                      <Link href="program">About Swahilipot</Link>
+                    </li>
+                    <li>
+                      <Link href="program-details">Our Origin Story</Link>
+                    </li>
+                  </ul>
+                  <a
+                    className="mean-expand"
+                    href="#"
+                    onClick={() => activeMenuSet("About Us")}
+                  >
+                    <i className="far fa-plus" />
+                  </a>
                 </li>
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Programs")}>
@@ -487,10 +207,19 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Programs")}>
                     <li>
-                      <Link href="service">Programs</Link>
+                      <Link href="program">Case Management</Link>
                     </li>
                     <li>
-                      <Link href="service-details">Service Details</Link>
+                      <Link href="program-details">Mombasa Tourism Innovation Lab</Link>
+                    </li>
+                    <li>
+                      <Link href="program">Events</Link>
+                    </li>
+                    <li>
+                      <Link href="program-details">Campus Ambassador Program</Link>
+                    </li>
+                    <li>
+                      <Link href="program">Swahili Tech Woman</Link>
                     </li>
                   </ul>
                   <a
@@ -502,67 +231,31 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li className="has-dropdown">
-                  <a href="#" onClick={() => activeMenuSet("Pages")}>
-                    Pages
+                  <a href="#" onClick={() => activeMenuSet("Departments")}>
+                    Departments
                     <i className="fas fa-angle-down" />
                   </a>
-                  <ul className="submenu" style={activeLi("Pages")}>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Projects")}>
-                        Projects
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul
-                        className="submenu"
-                        style={multiMenuActiveLi("Projects")}
-                      >
-                        <li>
-                          <Link href="project">Projects</Link>
-                        </li>
-                        <li>
-                          <Link href="project-details">Project Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Projects")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li className="has-dropdown">
-                      <a href="#" onClick={() => multiMenuSet("Team")}>
-                        Team
-                        <i className="fas fa-angle-down" />
-                      </a>
-                      <ul className="submenu" style={multiMenuActiveLi("Team")}>
-                        <li>
-                          <Link href="team">Team</Link>
-                        </li>
-                        <li>
-                          <Link href="team-details">Team Details</Link>
-                        </li>
-                      </ul>
-                      <a
-                        className="mean-expand"
-                        href="#"
-                        onClick={() => multiMenuSet("Team")}
-                      >
-                        <i className="far fa-plus" />
-                      </a>
-                    </li>
-                    <li>
-                      <Link href="pricing">Pricing Table</Link>
-                    </li>
-                    <li>
-                      <Link href="404">404 Page</Link>
-                    </li>
+                  <ul className="submenu" style={activeLi("Departments")}>
+                  <li>
+                    <Link href="program">Communications</Link>
+                  </li>
+                  <li>
+                    <Link href="program">Technology</Link>
+                  </li>
+                  <li>
+                    <Link href="program">Engineering Team</Link>
+                  </li>
+                  <li>
+                    <Link href="program">Creatives</Link>
+                  </li>
+                  <li>
+                    <Link href="program">Community Experience</Link>
+                  </li>
                   </ul>
                   <a
                     className="mean-expand"
                     href="#"
-                    onClick={() => activeMenuSet("Pages")}
+                    onClick={() => activeMenuSet("Departments")}
                   >
                     <i className="far fa-plus" />
                   </a>
@@ -570,22 +263,6 @@ const MobileMenu = ({ single, menu }) => {
                 <li>
                   <a href="#" onClick={() => activeMenuSet("Blog")}>
                     Blog
-                    <i className="fas fa-angle-down" />
-                  </a>
-                  <ul className="submenu" style={activeLi("Blog")}>
-                    <li>
-                      <Link href="news">Blog </Link>
-                    </li>
-                    <li>
-                      <Link href="news-details">Blog Details</Link>
-                    </li>
-                  </ul>
-                  <a
-                    className="mean-expand"
-                    href="#"
-                    onClick={() => activeMenuSet("Blog")}
-                  >
-                    <i className="far fa-plus" />
                   </a>
                 </li>
                 <li className="mean-last">
