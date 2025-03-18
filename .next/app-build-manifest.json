@@ -1,9 +1,10 @@
 {
   "pages": {
-    "/page": [
+    "/programs/swahili-tech/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/css/app/programs/swahili-tech/page.css",
+      "static/chunks/app/programs/swahili-tech/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -15,6 +16,26 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/_not-found/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/programs/case-management/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/programs/case-management/page.js"
+    ],
+    "/programs/mtourism-lab/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/programs/mtourism-lab/page.js"
     ]
   }
 }
