@@ -29,7 +29,7 @@ const Menu = ({ single, menu }) => {
     ? menu
     : [
         { id: 1, href: "about", title: "About" },
-        { id: 2, href: "services", title: "Services" },
+        { id: 2, href: "programs", title: "Programs" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
       ];
@@ -321,12 +321,12 @@ const Menu = ({ single, menu }) => {
             </li>
             <li>
               <Link href="service-details">
-                Services
+                Programs
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
                 <li>
-                  <Link href="service">Services</Link>
+                  <Link href="service">Programs</Link>
                 </li>
                 <li>
                   <Link href="service-details">Service Details</Link>
@@ -414,7 +414,7 @@ const MobileMenu = ({ single, menu }) => {
     ? menu
     : [
         { id: 1, href: "about", title: "About" },
-        { id: 2, href: "services", title: "Services" },
+        { id: 2, href: "programs", title: "Programs" },
         { id: 3, href: "team", title: "Team" },
         { id: 4, href: "blog", title: "Blog" },
       ];
@@ -481,13 +481,13 @@ const MobileMenu = ({ single, menu }) => {
                   <Link href="about">About</Link>
                 </li>
                 <li>
-                  <a href="#" onClick={() => activeMenuSet("Services")}>
-                    Services
+                  <a href="#" onClick={() => activeMenuSet("Programs")}>
+                    Programs
                     <i className="fas fa-angle-down" />
                   </a>
-                  <ul className="submenu" style={activeLi("Services")}>
+                  <ul className="submenu" style={activeLi("Programs")}>
                     <li>
-                      <Link href="service">Services</Link>
+                      <Link href="service">Programs</Link>
                     </li>
                     <li>
                       <Link href="service-details">Service Details</Link>
@@ -496,7 +496,7 @@ const MobileMenu = ({ single, menu }) => {
                   <a
                     className="mean-expand"
                     href="#"
-                    onClick={() => activeMenuSet("Services")}
+                    onClick={() => activeMenuSet("Programs")}
                   >
                     <i className="far fa-plus" />
                   </a>
@@ -610,7 +610,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                    <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={250} height={30} />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -710,16 +710,20 @@ const Header1 = ({ single, menu }) => {
               <div className="sticky-logo">
                 <Link href="/">
                   <img
-                    src="assets/img/logo/white-logo.svg"
+                    src="assets/img/logo/sphlogo.svg"
                     alt="logo-img"
                     className="logo-1"
+                    height={30}
+                    width={300}
                   />
                 </Link>
                 <Link href="/">
                   <img
-                    src="assets/img/logo/black-logo.svg"
+                    src="assets/img/logo/sphlogo.svg"
                     alt="logo-img"
                     className="logo-2"
+                    height={30}
+                    width={300}
                   />
                 </Link>
               </div>
@@ -767,7 +771,7 @@ const Header1 = ({ single, menu }) => {
 const Header2 = ({ single }) => {
   const singleMenu = [
     { id: 1, href: "about", title: "About" },
-    { id: 2, href: "services", title: "Services" },
+    { id: 2, href: "programs", title: "Programs" },
     { id: 3, href: "projects", title: "Projects" },
     { id: 4, href: "testimonial", title: "Testimonial" },
   ];
@@ -781,7 +785,7 @@ const Header2 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -823,7 +827,7 @@ const Header2 = ({ single }) => {
 const Header3 = ({ single }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   const singleMenu = [
-    { id: 2, href: "services", title: "Services" },
+    { id: 2, href: "programs", title: "Programs" },
     { id: 1, href: "about", title: "About" },
     { id: 3, href: "team", title: "Team" },
     { id: 4, href: "testimonial", title: "Testimonial" },
@@ -837,7 +841,7 @@ const Header3 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -891,7 +895,7 @@ const Header5 = ({ single }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   const singleMenu = [
     { id: 1, href: "about", title: "About" },
-    { id: 2, href: "services", title: "Services" },
+    { id: 2, href: "programs", title: "Programs" },
     { id: 3, href: "projects", title: "Projects" },
     { id: 4, href: "contact", title: "Contact" },
   ];
@@ -906,7 +910,7 @@ const Header5 = ({ single }) => {
                   <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
                 </Link>
                 <Link href="/" className="logo-2">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -943,7 +947,7 @@ const Header5 = ({ single }) => {
 const Header6 = ({ single }) => {
   const [sidebarToggle, setSidebarToggle] = useState(false);
   const singleMenu = [
-    { id: 2, href: "services", title: "Services" },
+    { id: 2, href: "programs", title: "Programs" },
     { id: 3, href: "feature", title: "Feature" },
     { id: 4, href: "pricing", title: "Pricing" },
   ];
@@ -955,7 +959,7 @@ const Header6 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/black-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
