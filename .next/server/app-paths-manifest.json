@@ -1,5 +1,13 @@
 {
   "/page": "app/page.js",
+<<<<<<< HEAD
   "/news/page": "app/news/page.js",
   "/service/page": "app/service/page.js"
+=======
+  "/contact/page": "app/contact/page.js",
+  "/about/page": "app/about/page.js",
+  "/index-2/page": "app/index-2/page.js",
+  "/index-four-page/page": "app/index-four-page/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+>>>>>>> 252b9baeef050fff7b7c173770ea02bcf6c6149b
 }
