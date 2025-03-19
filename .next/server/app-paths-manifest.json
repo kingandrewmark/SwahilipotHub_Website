@@ -1,7 +1,0 @@
-{
-  "/page": "app/page.js",
-  "/Departments/Engineering/page": "app/Departments/Engineering/page.js",
-  "/Departments/Communications/page": "app/Departments/Communications/page.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
-}
