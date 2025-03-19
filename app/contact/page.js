@@ -31,11 +31,11 @@ const page = () => {
                     data-wow-delay=".3s"
                   >
                     <li>
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="partnership@swahilipothub.co.ke">partnership@swahilipothub.co.ke</a>
                     </li>
-                    <li>55 Main Street, 2nd block, Malborne, Australia</li>
+                    <li>Mombasa, Kenya</li>
                     <li>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+254 11 4635505">+254 11 4635505</a>
                     </li>
                   </ul>
                 </div>
@@ -111,7 +111,7 @@ const page = () => {
         <div className="map-items">
           <div className="googpemap">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.7893833802746!2d39.67731977474537!3d-4.063306044967009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1840131ba0153b67%3A0x75a36ee817c3f38b!2sSwahilipot%20Hub!5e0!3m2!1sen!2ske!4v1718785438427!5m2!1sen!2ske"
               style={{ border: 0 }}
               allowFullScreen=""
               loading="lazy"

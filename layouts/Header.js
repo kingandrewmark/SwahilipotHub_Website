@@ -61,10 +61,10 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
               <li>
-                      <Link href="program">About Swahilipot</Link>
+                      <Link href="/about/aboutus">About Swahilipot</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Our Origin Story</Link>
+                      <Link href="about/origin">Our Origin Story</Link>
                     </li>
               </ul>
             </li>
@@ -84,7 +84,7 @@ const Menu = ({ single, menu }) => {
                       <Link href="programs/events">Events</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Campus Ambassador Program</Link>
+                      <Link href="programs/campus-abs-program">Campus Ambassador Program</Link>
                     </li>
                     <li>
                       <Link href="programs/swahili-tech">Swahili Tech Woman</Link>
@@ -115,7 +115,7 @@ const Menu = ({ single, menu }) => {
               </ul>
             </li>
             <li>
-              <Link href="news">
+              <Link href="https://medium.com/@swahilipotengineering" target="_blank" rel="noopener noreferrer">
                 Blog
               </Link>
             </li>
@@ -186,10 +186,10 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("About Us")}>
                     <li>
-                      <Link href="program">About Swahilipot</Link>
+                      <Link href="/about/aboutus">About Swahilipot</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Our Origin Story</Link>
+                      <Link href="/about/origin">Our Origin Story</Link>
                     </li>
                   </ul>
                   <a
@@ -584,7 +584,7 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" />
                 </Link>
                 <Link href="/" className="logo-2">
                   <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
@@ -636,7 +636,7 @@ const Header6 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
