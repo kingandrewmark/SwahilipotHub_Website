@@ -7,112 +7,107 @@ const page = () => {
   return (
     <NextLayout header={1}>
       <section
-        className="hero-section hero-1 bg-cover fix"
-        style={{ backgroundImage: 'url("assets/img/hero/01.jpg")' }}
-      >
-        <div className="container">
-          <div className="row g-4 justify-content-between">
-            <div className="col-lg-6">
-              <div className="hero-content">
-                <h1 className="wow fadeInUp" data-wow-delay=".2s">
-                  We Take Care <br />
-                  Your IT Solutions <br /> &amp; Provide Best <br /> Services
-                </h1>
-                <div className="hero-button">
-                  <Link
-                    href="/"
-                    className="theme-btn hover-white wow fadeInUp"
-                    data-wow-delay=".4s"
-                  >
-                    Get Started Now <i className="far fa-arrow-right" />
-                  </Link>
-                  <Link
-                    href="service"
-                    className="btn-link wow fadeInUp"
-                    data-wow-delay=".6s"
-                  >
-                    View Services <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div
-                  className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
-                  data-wow-delay=".8s"
-                >
-                  <img src="assets/img/hero/client.png" alt="img" />
-                  <p className="text-white">
-                    Trusted by 1M+ people <br />
-                    around the globe
+          className="hero-section hero-1 bg-cover fix"
+          style={{ backgroundImage: 'url("assets/img/hero/swahilipot-bg.jpg")' }}
+        >
+          <div className="container">
+            <div className="row g-4 justify-content-between">
+              <div className="col-lg-6">
+                <div className="hero-content">
+                  <h1 className="wow fadeInUp" data-wow-delay=".2s">
+                    Empowering Innovation, <br />
+                    Creativity, &amp; Community <br />
+                    at Swahilipot Hub
+                  </h1>
+                  <p className="wow fadeInUp" data-wow-delay=".3s">
+                    Join a collaborative space where technology meets creativity. 
+                    We nurture talent and foster innovation for a brighter future.
                   </p>
+                  <div className="hero-button">
+                    <Link
+                      href="/about"
+                      className="theme-btn hover-white wow fadeInUp"
+                      data-wow-delay=".4s"
+                    >
+                      Learn More <i className="far fa-arrow-right" />
+                    </Link>
+                    <Link
+                      href="/projects"
+                      className="btn-link wow fadeInUp"
+                      data-wow-delay=".6s"
+                    >
+                      Explore Projects <i className="far fa-arrow-right" />
+                    </Link>
+                  </div>
+                  <div
+                    className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
+                    data-wow-delay=".8s"
+                  >
+                    <img src="assets/img/hero/community.png" alt="Community" />
+                    <p className="text-white">
+                      Supporting 10K+ innovators <br />
+                      across the Coast region
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
-              <div className="hero-contact-box">
-                <h4>Get Consultations</h4>
-                <p>Ready to Register Our Landsio Services</p>
-                <form
-                  action="#"
-                  id="contact-form"
-                  method="POST"
-                  className="contact-form-item"
-                >
-                  <div className="row g-4">
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="name"
-                          id="name"
-                          placeholder="Your Name"
-                        />
+              <div className="col-lg-5 wow fadeInUp" data-wow-delay=".4s">
+                <div className="hero-contact-box">
+                  <h4>Join Our Community</h4>
+                  <p>Be part of our mission to inspire and innovate.</p>
+                  <form
+                    action="#"
+                    id="contact-form"
+                    method="POST"
+                    className="contact-form-item"
+                  >
+                    <div className="row g-4">
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Email Address"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="col-lg-12">
+                        <div className="form-clt">
+                          <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Tell us why you want to join"
+                            rows="3"
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div className="col-lg-12">
+                        <button type="submit" className="theme-btn">
+                          Apply Now <i className="far fa-arrow-right" />
+                        </button>
                       </div>
                     </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="email"
-                          id="email"
-                          placeholder="Email Address"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="form-clt">
-                        <input
-                          type="text"
-                          name="phone"
-                          id="phone"
-                          placeholder="Phone Number"
-                        />
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <div className="payment-save">
-                        <input
-                          type="checkbox"
-                          className="form-check-input"
-                          name="save-for-next"
-                          id="saveForNext"
-                        />
-                        <p>
-                          I’ve Read and agreed to{" "}
-                          <Link href="/">Terms &amp; Conditions</Link>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-lg-12">
-                      <button type="submit" className="theme-btn">
-                        Get Started Now <i className="far fa-arrow-right" />
-                      </button>
-                    </div>
-                  </div>
-                </form>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+
       {/* Service Section Start */}
       <section className="service-section fix pt-80 pb-80 section-bg">
         <div className="container">
