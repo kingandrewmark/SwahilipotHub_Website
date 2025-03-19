@@ -5,16 +5,16 @@ import Link from "next/link";
 const page = () => {
   return (
     <NextLayout>
-      <Breadcrumb pageName="Popular Projects" pageTitle="Popular Projects" />
+      <Breadcrumb pageName="Popular Spaces" pageTitle="Popular Spaces" />
       <section className="project-section fix section-padding">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              Work Gallery
+              Spaces Gallery
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Explore Featured Projects
+              Explore Featured Spaces
             </h2>
           </div>
           <div className="row justify-content-center">
@@ -26,14 +26,14 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/05.jpg" alt="img" />
+                      <img src="assets/img/spaces/jitume.webp" alt="img" />
                     </div>
                     <div className="project-content">
-                      <p>Product Design</p>
+                      <p>Mwana Kupona</p>
                       <h3>
                         <Link href="project-details">
-                          Business Task Management <br />
-                          Dashboard Design
+                          Swahilipot Hub <br />
+                          Mwana Kupona Space
                         </Link>
                       </h3>
                     </div>
@@ -45,14 +45,14 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/06.jpg" alt="img" />
+                      <img src="assets/img/spaces/comm.jpg" alt="img" />
                     </div>
                     <div className="project-content">
-                      <p>Website Design</p>
+                      <p>Community Space</p>
                       <h3>
                         <Link href="project-details">
-                          Business Consulting Web <br />
-                          Explorations Design
+                          Swahilipot HUB <br />
+                          Community Space
                         </Link>
                       </h3>
                     </div>
@@ -64,13 +64,14 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/07.jpg" alt="img" />
+                      <img src="assets/img/spaces/Mekatilili.webp" alt="img" />
                     </div>
                     <div className="project-content">
-                      <p>Product Design</p>
+                      <p>Mekatilili</p>
                       <h3>
                         <Link href="project-details">
-                          Mobile Applications Design
+                          Swahilipot HUB <br />
+                          Mekatilili Space
                         </Link>
                       </h3>
                     </div>
@@ -82,13 +83,14 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/08.jpg" alt="img" />
+                      <img src="assets/img/spaces/ali.webp" alt="img" />
                     </div>
                     <div className="project-content">
-                      <p>Website Design</p>
+                      <p>Ali Mazurui Space</p>
                       <h3>
                         <Link href="project-details">
-                          Furniture Website Design
+                          Swahilipot HUB <br />
+                          Ali Mazurui Space
                         </Link>
                       </h3>
                     </div>
@@ -100,67 +102,14 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/project/09.jpg" alt="img" />
+                      <img src="assets/img/spaces/Amp.webp" alt="img" />
                     </div>
                     <div className="project-content">
-                      <p>Product Design</p>
+                      <p>Amphitheatre Space</p>
                       <h3>
                         <Link href="project-details">
-                          Business Card Design and <br /> Branding Identity
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
-                >
-                  <div className="project-card-items">
-                    <div className="project-image">
-                      <img src="assets/img/project/10.jpg" alt="img" />
-                    </div>
-                    <div className="project-content">
-                      <p>Website Design</p>
-                      <h3>
-                        <Link href="project-details">
-                          Modern T-Shirt Design and <br /> Branding Identity
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".3s"
-                >
-                  <div className="project-card-items">
-                    <div className="project-image">
-                      <img src="assets/img/project/11.jpg" alt="img" />
-                    </div>
-                    <div className="project-content">
-                      <p>Product Design</p>
-                      <h3>
-                        <Link href="project-details">
-                          Mobile Applications Design
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-lg-6 col-md-6 wow fadeInUp"
-                  data-wow-delay=".5s"
-                >
-                  <div className="project-card-items">
-                    <div className="project-image">
-                      <img src="assets/img/project/12.jpg" alt="img" />
-                    </div>
-                    <div className="project-content">
-                      <p>Product Design</p>
-                      <h3>
-                        <Link href="project-details">
-                          Furniture Website Design
+                          Swahilipot HUB <br />
+                          Amphitheatre Space
                         </Link>
                       </h3>
                     </div>

@@ -1,5 +1,5 @@
 import Counter from "./Counter";
-const FunFactCounter = ({ style }) => {
+const NumberCounter = ({ style }) => {
   return (
     <div className="row">
       <div
@@ -14,7 +14,7 @@ const FunFactCounter = ({ style }) => {
             %
           </h2>
           <h6>of our members are Youth</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <p>Empowering the next generation through innovation and creativity.</p>
         </div>
       </div>
       <div
@@ -29,7 +29,7 @@ const FunFactCounter = ({ style }) => {
             +
           </h2>
           <h6>Community Members</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <p>Building a thriving community committed to digital excellence.</p>
         </div>
       </div>
       <div
@@ -43,7 +43,7 @@ const FunFactCounter = ({ style }) => {
             </span>
           </h2>
           <h6>Programs and Activities</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <p>Offering diverse programs to foster skills and growth opportunities.</p>
         </div>
       </div>
       <div
@@ -58,10 +58,10 @@ const FunFactCounter = ({ style }) => {
             %
           </h2>
           <h6>Professional Team Members</h6>
-          <p>Sed perspiciatis unde omnis este natus sit volupta</p>
+          <p>Driven by a team of passionate and skilled professionals.</p>
         </div>
       </div>
     </div>
   );
 };
-export default FunFactCounter;
+export default NumberCounter;

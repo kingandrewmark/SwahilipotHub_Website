@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Pricing = () => {
+const Pillars = () => {
   return (
     <section className="pricing-section section-padding">
       <div className="container">
@@ -24,24 +24,11 @@ const Pricing = () => {
               </div>
               <div className="pricing-header">
                 <h3>Technology</h3>
-                <p>For Small Businesses</p>
-              </div>
-              <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li className="style-2">Automation templates</li>
-                <li className="style-2">Great Customer Support</li>
-              </ul>
-              <div className="pricing-bottom">
-                <h2>
-                  $19 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
+                <p>We equip young minds with essential tech skills through hands-on programs like Data and Research, Digital Literacy, Industrial Attachment, Campus Ambassador, and dynamic Pitching Thursdays.</p>
               </div>
               <div className="pricing-button">
                 <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
+                🔍 Discover Innovation
                 </Link>
               </div>
             </div>
@@ -56,24 +43,11 @@ const Pricing = () => {
               </div>
               <div className="pricing-header">
                 <h3>Creatives & Arts</h3>
-                <p>For Small Businesses</p>
-              </div>
-              <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li>Automation templates</li>
-                <li>Great Customer Support</li>
-              </ul>
-              <div className="pricing-bottom">
-                <h2>
-                  $53 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
+                <p>We foster creative expression through programs like Sanaa Show and Sanaart Shop, supporting talents in acting, voice arts, and visual storytelling to inspire community impact.</p>
               </div>
               <div className="pricing-button">
                 <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
+                📣 Unleash Your Creativity
                 </Link>
               </div>
             </div>
@@ -88,24 +62,11 @@ const Pricing = () => {
               </div>
               <div className="pricing-header">
                 <h3>Heritage</h3>
-                <p>For Small Businesses</p>
-              </div>
-              <ul className="pricing-list">
-                <li>IT Consulting</li>
-                <li>Digital Product Design</li>
-                <li>Machine Learning</li>
-                <li className="style-2">Automation templates</li>
-                <li className="style-2">Great Customer Support</li>
-              </ul>
-              <div className="pricing-bottom">
-                <h2>
-                  $99 <span>/month</span>
-                </h2>
-                <p>For Small Businesses</p>
+                <p>We celebrate cultural heritage by preserving stories, traditions, and experiences, bridging the gap between history and future generations through immersive programs.</p>
               </div>
               <div className="pricing-button">
                 <Link href="contact" className="theme-btn style-transparent">
-                  Choose Package
+                🌍 Preserve Our Legacy
                 </Link>
               </div>
             </div>
@@ -115,7 +76,7 @@ const Pricing = () => {
     </section>
   );
 };
-export default Pricing;
+export default Pillars;
 
 export const Pricing2 = ({
   priceingClass = "pricing-section-3",
