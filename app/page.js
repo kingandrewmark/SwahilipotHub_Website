@@ -1,5 +1,5 @@
-import FunFactCounter from "@/components/FunFactCounter";
-import Pricing from "@/components/Pricing";
+import NumberCounter from "@/components/NumberCounter";
+import Pillars from "@/components/Pillars";
 import { TestimonialSlider1 } from "@/components/TestimonialSlider";
 import NextLayout from "@/layouts/NextLayout";
 import Link from "next/link";
@@ -469,8 +469,8 @@ const page = () => {
                 </h2>
               </div>
               <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                Sed ut perspiciatis unde omnis iste natus error sit volupta
-                temes <br /> accusantium doloremque laudantium, totam rem
+                Our board members bring a wealth of experience and strategic vision,
+                <br /> driving innovation and excellence in every aspect of our organization.
               </p>
             </div>
             <div
@@ -711,7 +711,7 @@ const page = () => {
             Our Impacts in Numbers
             </h2>
           </div>
-          <FunFactCounter />
+          <NumberCounter />
         </div>
       </section>
       {/* Popular Case Study Section Start */}
@@ -744,7 +744,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/01.jpg" alt="img" />
+                  <img src="assets/img/spaces/Mekatilili.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Mekatilili</p>
@@ -765,7 +765,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/02.jpg" alt="img" />
+                  <img src="assets/img/spaces/ali.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Ali Mazurui</p>
@@ -786,7 +786,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/case-study/03.jpg" alt="img" />
+                  <img src="assets/img/spaces/Amp.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Amphitheatre</p>
@@ -805,7 +805,7 @@ const page = () => {
         </div>
       </section>
       {/* Pricing Section Start */}
-      <Pricing />
+      <Pillars />
       {/* Testimonial Section Start */}
       <section className="testimonial-section fix section-padding pt-0">
         <div className="container">
