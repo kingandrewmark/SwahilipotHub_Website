@@ -9,11 +9,11 @@ const FunFactCounter = ({ style }) => {
         <div className={`funfact-box-items style-${style}`}>
           <h2>
             <span className="count">
-              <Counter end={98} />
+              <Counter end={65} />
             </span>
             %
           </h2>
-          <h6>Average Conversion Rate</h6>
+          <h6>of our members are Youth</h6>
           <p>Sed perspiciatis unde omnis este natus sit volupta</p>
         </div>
       </div>
@@ -24,11 +24,11 @@ const FunFactCounter = ({ style }) => {
         <div className={`funfact-box-items active`}>
           <h2>
             <span className="count">
-              <Counter end={35} />
+              <Counter end={4000} />
             </span>
-            m+
+            +
           </h2>
-          <h6>Traffic Generated</h6>
+          <h6>Community Members</h6>
           <p>Sed perspiciatis unde omnis este natus sit volupta</p>
         </div>
       </div>
@@ -39,11 +39,10 @@ const FunFactCounter = ({ style }) => {
         <div className={`funfact-box-items style-${style}`}>
           <h2>
             <span className="count">
-              <Counter end={97} />
+              <Counter end={25} />
             </span>
-            %
           </h2>
-          <h6>Positive Customer Review</h6>
+          <h6>Programs and Activities</h6>
           <p>Sed perspiciatis unde omnis este natus sit volupta</p>
         </div>
       </div>
@@ -54,7 +53,7 @@ const FunFactCounter = ({ style }) => {
         <div className={`funfact-box-items style-${style}`}>
           <h2>
             <span className="count">
-              <Counter end={92} />
+              <Counter end={90} />
             </span>
             %
           </h2>

@@ -120,7 +120,7 @@ const page = () => {
             className="mb-5 text-white text-center wow fadeInUp"
             data-wow-delay=".3s"
           >
-            Preparing For Your Business Success With IT Solution
+            Empowering Communities Through Innovation and Digital Transformation
           </h4>
           <div className="row g-4">
             <div
@@ -132,8 +132,8 @@ const page = () => {
                   <p>01</p>
                   <h5>
                     <Link href="service-details">
-                      Data Manage &amp; <br />
-                      Solutions Center
+                      Swahilipot FM &amp; <br />
+                      Creative Media
                     </Link>
                   </h5>
                   <Link className="arrow-btn" href="service-details">
@@ -141,7 +141,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/01.jpg" alt="img" />
+                  <img src="assets/img/service/spfm.jpg" alt="img" width={250} height={250} />
                 </div>
               </div>
             </div>
@@ -154,8 +154,8 @@ const page = () => {
                   <p>02</p>
                   <h5>
                     <Link href="service-details">
-                      Preparing For <br />
-                      Cloud Services
+                      Advancing Digital <br />
+                      Literacy Programs
                     </Link>
                   </h5>
                   <Link className="arrow-btn" href="service-details">
@@ -163,7 +163,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/02.jpg" alt="img" />
+                  <img src="assets/img/service/digital.jpg" alt="img" />
                 </div>
               </div>
             </div>
@@ -176,8 +176,8 @@ const page = () => {
                   <p>03</p>
                   <h5>
                     <Link href="service-details">
-                      Machine Learning <br />
-                      &amp; Development
+                      Entrepreneurship <br />
+                      &amp; Business Development
                     </Link>
                   </h5>
                   <Link className="arrow-btn" href="service-details">
@@ -185,7 +185,7 @@ const page = () => {
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/03.jpg" alt="img" />
+                  <img src="assets/img/service/entpre.jpg" alt="img" />
                 </div>
               </div>
             </div>
@@ -397,13 +397,13 @@ const page = () => {
       {/* Cta Video Section Start */}
       <div
         className="cta-video-section fix bg-cover"
-        style={{ backgroundImage: 'url("assets/img/cta/cta-video.jpg")' }}
+        style={{ backgroundImage: 'url("assets/img/cta/sphamp.jpg")' }}
       >
         <div className="container">
           <div className="cta-video-wrapper">
             <div className="video-box">
               <a
-                href="https://www.youtube.com/watch?v=Cn4G2lZ_g2I"
+                href="https://www.youtube.com/watch?v=b5Uqa7UsZ9I&ab_channel=SwahilipotHubFoundation"
                 className="video-buttton ripple video-popup"
               >
                 <i className="fas fa-play" />
@@ -415,39 +415,39 @@ const page = () => {
           <div className="marquee-inner to-left">
             <ul className="marqee-list d-flex">
               <li className="marquee-item">
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
+                <span className="text-slider">Swahili</span>
+                <span className="text-slider">Pot </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
+                <span className="text-slider">Hub</span>
+                <span className="text-slider">Foundation </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
+                <span className="text-slider">Documentary</span>
+                <span className="text-slider">Swahili </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
+                <span className="text-slider">Pot </span>
+                <span className="text-slider">Hub</span>
+                <span className="text-slider">Foundation</span>
+                <span className="text-slider">Documentary </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
+                <span className="text-slider">Swahili</span>
+                <span className="text-slider">Pot </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
+                <span className="text-slider">Hub </span>
+                <span className="text-slider">Foundation </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Consulting </span>
+                <span className="text-slider">Documentary </span>
+                <span className="text-slider">Swahili</span>
+                <span className="text-slider">Pot</span>
+                <span className="text-slider">Hub </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Co</span>
-                <span className="text-slider">Machine </span>
+                <span className="text-slider">Foundation</span>
+                <span className="text-slider">Documentary </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">IT</span>
-                <span className="text-slider">Learning </span>
+                <span className="text-slider">SwahiliPot</span>
+                <span className="text-slider">Hub </span>
                 <span className="text-slider style-border" />
-                <span className="text-slider">Web </span>
-                <span className="text-slider">Development</span>
+                <span className="text-slider">Foundation </span>
+                <span className="text-slider">Documentary</span>
               </li>
             </ul>
           </div>
@@ -461,11 +461,11 @@ const page = () => {
               <div className="section-title">
                 <span className="sub-content wow fadeInUp">
                   <img src="assets/img/bale.png" alt="img" />
-                  Team Member
+                  Board Members
                 </span>
                 <h2 className="wow fadeInUp" data-wow-delay=".3s">
                   Meet Our Professional <br />
-                  Team Members
+                  Board Members
                 </h2>
               </div>
               <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
@@ -479,13 +479,13 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/01.jpg" alt="img" />
+                  <img src="assets/img/team/mentor.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="team-details">Mr. Mahmood Noor</Link>
                   </h4>
-                  <p>Product Designer</p>
+                  <p>Founder & Chief Mentor</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -522,13 +522,13 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/02.jpg" alt="img" />
+                  <img src="assets/img/team/atrash.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Johnny M. Smith</Link>
+                    <Link href="team-details">Atrash Ali</Link>
                   </h4>
-                  <p>IT Consultant</p>
+                  <p>Chief Operations Officer</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -565,13 +565,13 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/03.jpg" alt="img" />
+                  <img src="assets/img/team/zuhra.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Angelo H. Tomlin</Link>
+                    <Link href="team-details">Zuhra Shariff</Link>
                   </h4>
-                  <p>Senior Manager</p>
+                  <p>Head Of HR & Admin</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -608,13 +608,13 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/04.jpg" alt="img" />
+                  <img src="assets/img/team/jacqueline.webp" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Robert E. Whitmore</Link>
+                    <Link href="team-details">Jacqueline Jepkoech</Link>
                   </h4>
-                  <p>Web Designer</p>
+                  <p>Global Opportunity Youth Network (GOYN) Mombasa</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -651,13 +651,13 @@ const page = () => {
             >
               <div className="team-items">
                 <div className="team-image">
-                  <img src="assets/img/team/05.jpg" alt="img" />
+                  <img src="assets/img/team/chri-achinga.jpg" alt="img" />
                 </div>
                 <div className="team-content">
                   <h4>
-                    <Link href="team-details">Manuel G. Wilmer</Link>
+                    <Link href="team-details">Chirs Achinga</Link>
                   </h4>
-                  <p>CEO &amp; Founder</p>
+                  <p>Technology Lead</p>
                   <div className="social-profile">
                     <ul>
                       <li>
@@ -705,10 +705,10 @@ const page = () => {
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
               <img src="assets/img/bale.png" alt="img" />
-              Company Fun Fact
+              Swahilipot Hub in Numbers
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              Learn Our Company Statistics
+            Our Impacts in Numbers
             </h2>
           </div>
           <FunFactCounter />
@@ -727,15 +727,14 @@ const page = () => {
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
                 <img src="assets/img/bale.png" alt="img" />
-                Popular Case Study
+                Swahilipot Spaces
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
-                Discover Our Popular Case Study <br /> That We Globally
-                Completes
+                Discover Our Popular Spaces <br /> Explore all Space guides and resources.
               </h2>
             </div>
-            <Link href="project" className="theme-btn white-border">
-              View More Cases
+            <Link href="spaces" className="theme-btn white-border">
+              View More Spaces
             </Link>
           </div>
           <div className="row">
@@ -748,10 +747,10 @@ const page = () => {
                   <img src="assets/img/case-study/01.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>IT Consulting</p>
+                  <p>Mekatilili</p>
                   <h3>
                     <Link href="case-study-details">
-                      How to achieve more with your nine to five
+                      Swahilipot HUB Mekatilili Space
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
@@ -769,10 +768,10 @@ const page = () => {
                   <img src="assets/img/case-study/02.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>Machine Learning</p>
+                  <p>Ali Mazurui</p>
                   <h3>
                     <Link href="case-study-details">
-                      Strategies for outstanding future results
+                    Swahilipot HUB Ali Mazurui Space
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
@@ -790,10 +789,10 @@ const page = () => {
                   <img src="assets/img/case-study/03.jpg" alt="img" />
                 </div>
                 <div className="content">
-                  <p>Software Design</p>
+                  <p>Amphitheatre</p>
                   <h3>
                     <Link href="case-study-details">
-                      Discover a better way of system defining company goals.
+                    Swahilipot HUB Amphitheatre Space
                     </Link>
                   </h3>
                   <Link className="arrow-btn" href="case-study-details">
