@@ -1,61 +1,70 @@
-import Image from "next/image";
-import Link from "next/link";
+"use client";  // Ensure this file is treated as a Client Component
+
+import { useState } from "react";
 
 const Hero = () => {
-  const youtubeVideoId = "bscypssE8Ms"; // Replace with your video ID
-  const youtubeThumbnail = `https://img.youtube.com/vi/${youtubeVideoId}/hqdefault.jpg`;
+  const [videoLoaded, setVideoLoaded] = useState(false);
+  const videoId = "YOUR_VIDEO_ID"; // Replace with actual YouTube video ID
 
   return (
-    <div className="overflow-hidden bg-white">
-      <div className="container mx-auto px-4 py-16">
-        <div className="flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-primary leading-tight">
-            Our mission is to help the Community <br />
-            <span className="text-warning">Grow itself</span>
-          </h1>
-          <p className="text-gray-600 max-w-2xl mt-4">
-            Swahilipot Hub Foundation is a non-profit organization that
-            meaningfully engages and empowers youth (18 to 35 years) to enable
-            them to unleash their full potential. Based in the coastal city of
-            Mombasa in Kenya, it is regulated by the NGO Coordination Board of
-            Kenya.
-          </p>
-        </div>
+    <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "#f8f9fa" }}>
+      <div className="container">
+        <h1 style={{ fontSize: "36px", color: "#1d3557", fontWeight: "bold" }}>
+          About Swahilipot Hub
+        </h1>
+        <p style={{ fontSize: "18px", color: "#555", marginBottom: "20px" }}>
+          Swahilipot Hub Foundation is a non-profit organization that meaningfully engages and empowers youth.
+        </p>
 
-        {/* ✅ Video Section with YouTube Thumbnail */}
-        <div className="relative flex justify-center mt-8">
-          <a
-            href={`https://www.youtube.com/watch?v=${youtubeVideoId}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="relative group"
-          >
-            {/* ✅ Display YouTube Thumbnail */}
-            <Image
-              className="rounded-lg shadow-lg"
-              src={youtubeThumbnail}
-              width={800}
-              height={450}
-              alt="Swahilipot Hub Community Video"
-            />
-            <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 group-hover:bg-opacity-50 transition">
-              <div className="bg-white p-4 rounded-full shadow-lg">
-                <i className="bi-play-circle-fill text-primary text-4xl"></i>
+        {/* YouTube Video Thumbnail with Play Button */}
+        <div
+          style={{
+            position: "relative",
+            width: "100%",
+            maxWidth: "800px",
+            margin: "20px auto",
+            cursor: "pointer",
+          }}
+          onClick={() => setVideoLoaded(true)}
+        >
+          {!videoLoaded ? (
+            <div style={{ position: "relative" }}>
+              <img
+                src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+                alt="YouTube Video Thumbnail"
+                style={{ width: "100%", borderRadius: "10px" }}
+              />
+              <div
+                style={{
+                  position: "absolute",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  fontSize: "60px",
+                  color: "white",
+                  background: "rgba(0, 0, 0, 0.6)",
+                  borderRadius: "50%",
+                  padding: "20px",
+                  cursor: "pointer",
+                }}
+              >
+                ▶
               </div>
             </div>
-          </a>
-        </div>
-
-        {/* ✅ Button */}
-        <div className="text-center mt-6">
-          <Link href="/about/origin" legacyBehavior>
-            <a className="px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition">
-              Our History <i className="bi-chevron-right ml-2"></i>
-            </a>
-          </Link>
+          ) : (
+            <iframe
+              width="100%"
+              height="400px"
+              src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+              title="YouTube Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          )}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -584,7 +584,7 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="assets/img/logo/white-logo.svg" alt="logo-img" />
+                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" />
                 </Link>
                 <Link href="/" className="logo-2">
                   <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
@@ -636,7 +636,7 @@ const Header6 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
