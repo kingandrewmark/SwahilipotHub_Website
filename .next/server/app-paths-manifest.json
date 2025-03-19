@@ -1,7 +1,7 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/programs/swahili-tech/page": "app/programs/swahili-tech/page.js",
   "/programs/mtourism-lab/page": "app/programs/mtourism-lab/page.js",
-  "/programs/case-management/page": "app/programs/case-management/page.js",
-  "/page": "app/page.js"
+  "/programs/swahili-tech/page": "app/programs/swahili-tech/page.js",
+  "/stwdonate/membership/page": "app/stwdonate/membership/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
