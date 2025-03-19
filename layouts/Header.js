@@ -98,19 +98,19 @@ const Menu = ({ single, menu }) => {
               </Link>
               <ul className="submenu">
               <li>
-                <Link href="program">Communications</Link>
+              <Link href="Departments/Communications">Communications</Link>
               </li>
               <li>
-                <Link href="program">Technology</Link>
+                <Link href="Departments/Technology">Technology</Link>
               </li>
               <li>
-                <Link href="program">Engineering Team</Link>
+                <Link href="Departments/Engineering">Engineering Team</Link>
               </li>
               <li>
-                <Link href="program">Creatives</Link>
+                <Link href="Departments/Creatives">Creatives</Link>
               </li>
               <li>
-                <Link href="program">Community Experience</Link>
+                <Link href="Departments/Community">Community Experience</Link>
               </li>
               </ul>
             </li>
@@ -237,19 +237,19 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Departments")}>
                   <li>
-                    <Link href="program">Communications</Link>
+                    <Link href="Departments/Communications">Communications</Link>
                   </li>
                   <li>
-                    <Link href="program">Technology</Link>
+                    <Link href="Departments/Technology">Technology</Link>
                   </li>
                   <li>
-                    <Link href="program">Engineering Team</Link>
+                    <Link href="Departments/Engineering">Engineering Team</Link>
                   </li>
                   <li>
-                    <Link href="program">Creatives</Link>
+                    <Link href="Departments/Creatives">Creatives</Link>
                   </li>
                   <li>
-                    <Link href="program">Community Experience</Link>
+                    <Link href="Departments/Community">Community Experience</Link>
                   </li>
                   </ul>
                   <a
