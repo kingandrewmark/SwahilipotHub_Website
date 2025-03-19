@@ -115,7 +115,7 @@ const Menu = ({ single, menu }) => {
               </ul>
             </li>
             <li>
-              <Link href="news">
+              <Link href="https://medium.com/@swahilipotengineering" target="_blank" rel="noopener noreferrer">
                 Blog
               </Link>
             </li>
