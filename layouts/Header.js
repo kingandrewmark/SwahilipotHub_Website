@@ -84,7 +84,7 @@ const Menu = ({ single, menu }) => {
                       <Link href="programs/events">Events</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Campus Ambassador Program</Link>
+                      <Link href="programs/campus-abs-program">Campus Ambassador Program</Link>
                     </li>
                     <li>
                       <Link href="programs/swahili-tech">Swahili Tech Woman</Link>
