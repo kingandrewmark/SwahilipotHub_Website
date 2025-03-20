@@ -1,5 +1,4 @@
 import ClientSlider from "@/components/ClientSlider";
-import { Pricing2 } from "@/components/Pricing";
 import {
   TestiContentSlider,
   TestiThumbSlider,
