@@ -83,7 +83,7 @@ const page = () => {
                 >
                   <div className="project-card-items">
                     <div className="project-image">
-                      <img src="assets/img/spaces/ali.webp" alt="img" />
+                      <img src="/assets/img/spaces/ali.webp" alt="img" />
                     </div>
                     <div className="project-content">
                       <p>Ali Mazurui Space</p>

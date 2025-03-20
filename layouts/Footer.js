@@ -30,7 +30,7 @@ const Footer1 = () => {
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+              <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
             </Link>
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
@@ -54,8 +54,7 @@ const Footer1 = () => {
                 </div>
                 <div className="footer-content">
                   <p>
-                    Sed perspiciatis unde omnis natus doloremque laudantium
-                    totae
+                  Swahilipot Hub Foundation empowers youth by providing a collaborative space to innovate, create, and grow through technology, arts, and cultural heritage.
                   </p>
                   <div className="social-icon d-flex align-items-center">
                     <a href="https://www.facebook.com/Swahilipothub/">
@@ -64,7 +63,7 @@ const Footer1 = () => {
                     <a href="https://twitter.com/swahilipothub">
                       <i className="fab fa-twitter" />
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@swahilipothubfoundation">
                       <i className="fab fa-youtube" />
                     </a>
                     <a href="https://www.linkedin.com/company/swahilipot-hub">
@@ -84,16 +83,16 @@ const Footer1 = () => {
                 </div>
                 <ul className="list-items">
                   <li>
-                    <Link href="service-details">About swahilipot</Link>
+                    <Link href="/about/aboutus">About swahilipot</Link>
                   </li>
                   <li>
-                    <Link href="team-details">Events</Link>
+                    <Link href="/programs/events">Events</Link>
                   </li>
                   <li>
-                    <Link href="contact">Contact</Link>
+                    <Link href="/contact">Contact</Link>
                   </li>
                   <li>
-                    <Link href="pricing">Blogs</Link>
+                    <Link href="https://medium.com/@swahilipotengineering" target="_blank" rel="noopener noreferrer">Blogs</Link>
                   </li>
                 </ul>
               </div>

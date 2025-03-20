@@ -55,7 +55,7 @@ const Menu = ({ single, menu }) => {
               <Link href="/">Home</Link>
             </li>
             <li className="has-dropdown">
-            <Link href="/about">
+            <Link href="#">
                 About Us
                 <i className="fas fa-angle-down" />
               </Link>
@@ -64,53 +64,53 @@ const Menu = ({ single, menu }) => {
                       <Link href="/about/aboutus">About Swahilipot</Link>
                     </li>
                     <li>
-                      <Link href="about/origin">Our Origin Story</Link>
+                      <Link href="/about/origin">Our Origin Story</Link>
                     </li>
               </ul>
             </li>
             <li className="has-dropdown">
-              <Link href="program-details">
+              <Link href="#">
                 Programs
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
               <li>
-                      <Link href="programs/case-management">Case Management</Link>
+                      <Link href="/programs/case-management">Case Management</Link>
                     </li>
                     <li>
-                      <Link href="programs/mtourism-lab">Mombasa Tourism Innovation Lab</Link>
+                      <Link href="/programs/mtourism-lab">Mombasa Tourism Innovation Lab</Link>
                     </li>
                     <li>
-                      <Link href="programs/events">Events</Link>
+                      <Link href="/programs/events">Events</Link>
                     </li>
                     <li>
-                      <Link href="programs/campus-abs-program">Campus Ambassador Program</Link>
+                      <Link href="/programs/campus-abs-program">Campus Ambassador Program</Link>
                     </li>
                     <li>
-                      <Link href="programs/swahili-tech">Swahili Tech Woman</Link>
+                      <Link href="/programs/swahili-tech">Swahili Tech Woman</Link>
                     </li>
               </ul>
             </li>
             <li className="has-dropdown">
-              <Link href="news">
+              <Link href="#">
                 Departments
                 <i className="fas fa-angle-down" />
               </Link>
               <ul className="submenu">
               <li>
-              <Link href="Departments/Communications">Communications</Link>
+              <Link href="/Departments/Communications">Communications</Link>
               </li>
               <li>
-                <Link href="Departments/Technology">Technology</Link>
+                <Link href="/Departments/Technology">Technology</Link>
               </li>
               <li>
-                <Link href="Departments/Engineering">Engineering Team</Link>
+                <Link href="/Departments/Engineering">Engineering Team</Link>
               </li>
               <li>
-                <Link href="Departments/Creatives">Creatives</Link>
+                <Link href="/Departments/Creatives">Creatives</Link>
               </li>
               <li>
-                <Link href="Departments/Community">Community Experience</Link>
+                <Link href="/Departments/Community">Community Experience</Link>
               </li>
               </ul>
             </li>
@@ -162,7 +162,7 @@ const MobileMenu = ({ single, menu }) => {
           <ul>
             <li className="has-dropdown active d-xl-none">
               <a
-                href="#"
+                href="/"
                 className="border-none"
                 onClick={() => activeMenuSet("home")}
               >
@@ -207,19 +207,19 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Programs")}>
                     <li>
-                      <Link href="program">Case Management</Link>
+                      <Link href="/programs/case-management">Case Management</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Mombasa Tourism Innovation Lab</Link>
+                      <Link href="/programs/mtourism-lab">Mombasa Tourism Innovation Lab</Link>
                     </li>
                     <li>
-                      <Link href="program">Events</Link>
+                      <Link href="/programs/events">Events</Link>
                     </li>
                     <li>
-                      <Link href="program-details">Campus Ambassador Program</Link>
+                      <Link href="/programs/campus-abs-program">Campus Ambassador Program</Link>
                     </li>
                     <li>
-                      <Link href="program">Swahili Tech Woman</Link>
+                      <Link href="/programs/swahili-tech">Swahili Tech Woman</Link>
                     </li>
                   </ul>
                   <a
@@ -237,19 +237,19 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                   <ul className="submenu" style={activeLi("Departments")}>
                   <li>
-                    <Link href="Departments/Communications">Communications</Link>
+                    <Link href="/Departments/Communications">Communications</Link>
                   </li>
                   <li>
-                    <Link href="Departments/Technology">Technology</Link>
+                    <Link href="/Departments/Technology">Technology</Link>
                   </li>
                   <li>
-                    <Link href="Departments/Engineering">Engineering Team</Link>
+                    <Link href="/Departments/Engineering">Engineering Team</Link>
                   </li>
                   <li>
-                    <Link href="Departments/Creatives">Creatives</Link>
+                    <Link href="/Departments/Creatives">Creatives</Link>
                   </li>
                   <li>
-                    <Link href="Departments/Community">Community Experience</Link>
+                    <Link href="/Departments/Community">Community Experience</Link>
                   </li>
                   </ul>
                   <a
@@ -261,12 +261,12 @@ const MobileMenu = ({ single, menu }) => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" onClick={() => activeMenuSet("Blog")}>
+                  <a href="https://medium.com/@swahilipotengineering" target="_blank" rel="noopener noreferrer" onClick={() => activeMenuSet("Blog")}>
                     Blog
                   </a>
                 </li>
                 <li className="mean-last">
-                  <Link href="contact">Contact</Link>
+                  <Link href="/contact">Contact</Link>
                 </li>
               </Fragment>
             )}
@@ -287,7 +287,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={250} height={30} />
+                    <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={250} height={30} />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -300,9 +300,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                 <MobileMenu single={single} menu={menu} />
               </div>
               <p className="text d-none d-xl-block mb-5">
-                Nullam dignissim, ante scelerisque the is euismod fermentum odio
-                sem semper the is erat, a feugiat leo urna eget eros. Duis
-                Aenean a imperdiet risus.
+              Swahilipot Hub Foundation empowers young minds through technology, arts, and heritage, fostering innovation and community growth.
               </p>
               <div className="offcanvas__contact">
                 <h4>Contact Info</h4>
@@ -313,7 +311,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                      Opp. Governor's Office, Mombasa
                       </a>
                     </div>
                   </li>
@@ -322,7 +320,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="fal fa-envelope" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                      <a href="mailto:partnership@swahilipothub.co.ke">partnership@swahilipothub.co.ke</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -340,7 +338,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                       <i className="far fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+254 11 4635505">+254 11 4635505</a>
                     </div>
                   </li>
                 </ul>
@@ -350,16 +348,16 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
                   </Link>
                 </div>
                 <div className="social-icon d-flex align-items-center">
-                  <a href="#">
+                  <a href="https://www.facebook.com/Swahilipothub/">
                     <i className="fab fa-facebook-f" />
                   </a>
-                  <a href="#">
+                  <a href="https://twitter.com/swahilipothub">
                     <i className="fab fa-twitter" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.youtube.com/@swahilipothubfoundation">
                     <i className="fab fa-youtube" />
                   </a>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/company/swahilipot-hub">
                     <i className="fab fa-linkedin-in" />
                   </a>
                 </div>
@@ -387,7 +385,7 @@ const Header1 = ({ single, menu }) => {
               <div className="sticky-logo">
                 <Link href="/">
                   <img
-                    src="assets/img/logo/sphlogo.svg"
+                    src="/assets/img/logo/sphlogo.svg"
                     alt="logo-img"
                     className="logo-1"
                     height={30}
@@ -396,7 +394,7 @@ const Header1 = ({ single, menu }) => {
                 </Link>
                 <Link href="/">
                   <img
-                    src="assets/img/logo/sphlogo.svg"
+                    src="/assets/img/logo/sphlogo.svg"
                     alt="logo-img"
                     className="logo-2"
                     height={30}
@@ -419,7 +417,7 @@ const Header1 = ({ single, menu }) => {
                   <div className="content">
                     <p>Make A Call</p>
                     <h4>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+254 11 4635505">+254 11 4635505</a>
                     </h4>
                   </div>
                 </div>
@@ -462,7 +460,7 @@ const Header2 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -518,7 +516,7 @@ const Header3 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -536,7 +534,7 @@ const Header3 = ({ single }) => {
                   <div className="content">
                     <p>Make A Call</p>
                     <h4>
-                      <a href="tel:+00012345688">+000 (123) 456 88</a>
+                      <a href="tel:+254 11 4635505">+254 11 4635505</a>
                     </h4>
                   </div>
                 </div>
@@ -584,10 +582,10 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" />
                 </Link>
                 <Link href="/" className="logo-2">
-                  <img src="assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
                 </Link>
               </div>
               <div className="header-left">
