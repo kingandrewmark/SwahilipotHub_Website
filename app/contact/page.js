@@ -22,9 +22,7 @@ const page = () => {
                     </h2>
                   </div>
                   <p className="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                    Sed ut perspiciatis unde omnis iste natus error voluptatem
-                    accusantium <br />
-                    doloremque laudantium, totam rem aperiam
+                  Got a spark of innovation? Let's connect and turn ideas into reality! Reach out to join our community of creatives and tech enthusiasts driving change across the Coast.
                   </p>
                   <ul
                     className="contact-list wow fadeInUp"

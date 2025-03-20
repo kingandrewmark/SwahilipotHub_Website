@@ -35,7 +35,7 @@ const Footer1 = () => {
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">
             <h2>
-              Let’s Discussed About <span>Your Projects</span>
+              Let’s Discussed About <span>partnership</span>
             </h2>
             <Link href="contact" className="theme-btn hover-white">
               Get Started <i className="far fa-arrow-right" />
@@ -153,16 +153,16 @@ const Footer1 = () => {
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp1.png")',
+                        backgroundImage: 'url("/assets/img/news/award.jpg")',
                       }}
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 25, 2024</li>
+                        <li>Mar 19, 2025</li>
                       </ul>
                       <h6>
-                        <Link href="news-details">
-                          How achieve more <br /> your nine to five
+                        <Link href="#">
+                          Awarded for Community <br /> Service
                         </Link>
                       </h6>
                     </div>
@@ -171,16 +171,16 @@ const Footer1 = () => {
                     <div
                       className="thumb bg-cover"
                       style={{
-                        backgroundImage: 'url("assets/img/news/pp2.png")',
+                        backgroundImage: 'url("/assets/img/news/alhikma.jpg")',
                       }}
                     />
                     <div className="content">
                       <ul className="post-date">
-                        <li>Nov 29, 2024</li>
+                        <li>Mar 19, 2025</li>
                       </ul>
                       <h6>
-                        <Link href="news-details">
-                          Discover a better way of company.
+                        <Link href="https://www.instagram.com/p/DHaPC9ngmP8/?hl=en&img_index=1" target="_blank" rel="noopener noreferrer">
+                        visited Al Hikma Orphanage.
                         </Link>
                       </h6>
                     </div>
@@ -195,13 +195,13 @@ const Footer1 = () => {
             <div className="footer-wrapper d-flex align-items-center justify-content-between">
               <ul className="footer-menu wow fadeInUp" data-wow-delay=".2s">
                 <li>
-                  <Link href="faq">FAQs</Link>
+                  <Link href="/faq">FAQs</Link>
                 </li>
                 <li>
-                  <Link href="about">Company</Link>
+                  <Link href="/about/origin">Company</Link>
                 </li>
                 <li>
-                  <Link href="contact">Privacy</Link>
+                  <Link href="/contact">Privacy</Link>
                 </li>
               </ul>
               <a
