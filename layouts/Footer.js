@@ -30,7 +30,7 @@ const Footer1 = () => {
         <div className="discussed-items">
           <div className="footer-logo wow fadeInUp" data-wow-delay=".3s">
             <Link href="/">
-              <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+              <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
             </Link>
           </div>
           <div className="discussed-content wow fadeInUp" data-wow-delay=".5s">

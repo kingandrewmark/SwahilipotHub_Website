@@ -287,7 +287,7 @@ const Sidebar = ({ sidebarToggle, close, menu, single }) => {
               <div className="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                 <div className="offcanvas__logo">
                   <Link href="/">
-                    <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={250} height={30} />
+                    <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                   </Link>
                 </div>
                 <div className="offcanvas__close" onClick={() => close()}>
@@ -389,7 +389,7 @@ const Header1 = ({ single, menu }) => {
                     alt="logo-img"
                     className="logo-1"
                     height={30}
-                    width={300}
+                    width={150}
                   />
                 </Link>
                 <Link href="/">
@@ -398,7 +398,7 @@ const Header1 = ({ single, menu }) => {
                     alt="logo-img"
                     className="logo-2"
                     height={30}
-                    width={300}
+                    width={150}
                   />
                 </Link>
               </div>
@@ -460,7 +460,7 @@ const Header2 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -516,7 +516,7 @@ const Header3 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -582,10 +582,10 @@ const Header5 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/" className="logo-1">
-                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                 </Link>
                 <Link href="/" className="logo-2">
-                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                 </Link>
               </div>
               <div className="header-left">
@@ -634,7 +634,7 @@ const Header6 = ({ single }) => {
             <div className="header-main">
               <div className="sticky-logo">
                 <Link href="/">
-                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={300} height={30} />
+                  <img src="/assets/img/logo/sphlogo.svg" alt="logo-img" width={150} height={30} />
                 </Link>
               </div>
               <div className="header-left">
