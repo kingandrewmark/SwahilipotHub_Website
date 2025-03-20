@@ -110,7 +110,7 @@ const Menu = ({ single, menu }) => {
                 <Link href="/Departments/Creatives">Creatives</Link>
               </li>
               <li>
-                <Link href="/Departments/Community">Community Experience</Link>
+                <Link href="/Departments/Community-ex">Community Experience</Link>
               </li>
               </ul>
             </li>
@@ -249,7 +249,7 @@ const MobileMenu = ({ single, menu }) => {
                     <Link href="/Departments/Creatives">Creatives</Link>
                   </li>
                   <li>
-                    <Link href="/Departments/Community">Community Experience</Link>
+                    <Link href="/Departments/Community-ex">Community Experience</Link>
                   </li>
                   </ul>
                   <a
@@ -472,7 +472,7 @@ const Header2 = ({ single }) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="header-button">
-                  <Link href="#" className="theme-btn bg-2">
+                  <Link href="/stwdonate/support-stw" className="theme-btn bg-2">
                     DONATE
                   </Link>
                 </div>
@@ -539,7 +539,7 @@ const Header3 = ({ single }) => {
                   </div>
                 </div>
                 <div className="header-button">
-                  <Link href="#" className="theme-btn bg-2">
+                  <Link href="/stwdonate/support-stw" className="theme-btn bg-2">
                     DONATE
                   </Link>
                 </div>
@@ -646,7 +646,7 @@ const Header6 = ({ single }) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="header-button">
-                  <Link href="#" className="theme-btn bg-2">
+                  <Link href="/stwdonate/support-stw" className="theme-btn bg-2">
                     DONATE
                   </Link>
                 </div>

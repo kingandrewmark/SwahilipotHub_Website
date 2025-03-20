@@ -10,8 +10,8 @@ const Communications = () => {
       {/* Hero Section */}
       <section className="contact-section section-padding text-center text-white bg-gradient-to-r from-blue-500 to-blue-700">
         <div className="container">
-          <h1 className="text-6xl font-extrabold bg-blue">Communications Department</h1>
-          <p className="text-1g text-dark">Kujenga Mawasiliano, Kueneza Sauti</p>
+          <h1 className="text-6xl font-extrabold bg-blue">Kujenga Mawasiliano, Kueneza Sauti</h1>
+          
         </div>
       </section>
       
