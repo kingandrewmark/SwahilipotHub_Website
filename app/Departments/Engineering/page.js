@@ -46,10 +46,8 @@ const EngineeringDepartment = () => {
 
       {/* Hero Section */}
       <section className="section-padding text-center text-white bg-gradient-to-r from-blue-500 to-blue-700 py-20">
-        <h2 className="text-6xl font-extrabold">Engineering Department</h2>
-        <p className="text-lg text-dark mt-2">
-          Mafundi wa Teknolojia, Mabadiliko ya Kesho
-        </p>
+        <h2 className="text-6xl font-extrabold">Mafundi wa Teknolojia, Mabadiliko ya Kesho</h2>
+        
       </section>
 
       {/* Image Section */}

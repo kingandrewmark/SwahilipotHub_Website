@@ -9,10 +9,8 @@ const TechnologyDepartment = () => {
 
       {/* Hero Section */}
       <section className="contact-section section-padding text-center text-white bg-gradient-to-r from-blue-500 to-blue-700">
-        <h2 className="text-6xl font-extrabold bg-blue">Technology Department</h2>
-        <p className="text-1g text-dark">
-          Kuwezesha Ustadi wa Teknolojia, Kukuza Vipaji
-        </p>
+        <h2 className="text-6xl font-extrabold bg-blue">   Kuwezesha Ustadi wa Teknolojia, Kukuza Vipaji</h2>
+       
       </section>
 
       {/* Image Section */}
