@@ -8,7 +8,7 @@ const page = () => {
     <NextLayout header={1}>
       <section
           className="hero-section hero-1 bg-cover fix"
-          style={{ backgroundImage: 'url("assets/img/hero/swahilipot-bg.jpg")' }}
+          style={{ backgroundImage: 'url("/assets/img/hero/swahilipot-bg.jpg")' }}
         >
           <div className="container">
             <div className="row g-4 justify-content-between">
@@ -25,25 +25,25 @@ const page = () => {
                   </p>
                   <div className="hero-button">
                     <Link
-                      href="/about"
+                      href="/about/aboutus"
                       className="theme-btn hover-white wow fadeInUp"
                       data-wow-delay=".4s"
                     >
                       Learn More <i className="far fa-arrow-right" />
                     </Link>
                     <Link
-                      href="/projects"
+                      href="/spaces"
                       className="btn-link wow fadeInUp"
                       data-wow-delay=".6s"
                     >
-                      Explore Projects <i className="far fa-arrow-right" />
+                      Explore Spaces <i className="far fa-arrow-right" />
                     </Link>
                   </div>
                   <div
                     className="hero-client d-flex align-items-center gap-4 mt-50 wow fadeInUp"
                     data-wow-delay=".8s"
                   >
-                    <img src="assets/img/hero/community.png" alt="Community" />
+                    <img src="/assets/img/hero/community.png" alt="Community" />
                     <p className="text-white">
                       Supporting 10K+ innovators <br />
                       across the Coast region
@@ -126,17 +126,17 @@ const page = () => {
                 <div className="content">
                   <p>01</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="https://www.swahilipotfm.co.ke/" target="_blank" rel="noopener noreferrer">
                       Swahilipot FM &amp; <br />
                       Creative Media
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="https://www.swahilipotfm.co.ke/" target="_blank" rel="noopener noreferrer">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/spfm.jpg" alt="img" width={250} height={250} />
+                  <img src="/assets/img/service/spfm.jpg" alt="img" width={250} height={250} />
                 </div>
               </div>
             </div>
@@ -148,17 +148,17 @@ const page = () => {
                 <div className="content">
                   <p>02</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="#">
                       Advancing Digital <br />
                       Literacy Programs
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="#">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/digital.jpg" alt="img" />
+                  <img src="/assets/img/service/digital.jpg" alt="img" />
                 </div>
               </div>
             </div>
@@ -170,17 +170,17 @@ const page = () => {
                 <div className="content">
                   <p>03</p>
                   <h5>
-                    <Link href="service-details">
+                    <Link href="#">
                       Entrepreneurship <br />
                       &amp; Business Development
                     </Link>
                   </h5>
-                  <Link className="arrow-btn" href="service-details">
+                  <Link className="arrow-btn" href="#">
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div className="thumb">
-                  <img src="assets/img/service/entpre.jpg" alt="img" />
+                  <img src="/assets/img/service/entpre.jpg" alt="img" />
                 </div>
               </div>
             </div>
@@ -198,11 +198,11 @@ const page = () => {
                     className="experience-text wow fadeInUp"
                     data-wow-delay=".6s"
                   >
-                    <li>25+ Years Of Experience</li>
+                    <li>8+ Years Of Existence</li>
                     <li>
                       <i className="fas fa-star" />
                     </li>
-                    <li>Awards Winning Company</li>
+                    <li>Tech Arts Heritage</li>
                   </ul>
                   <div className="row g-4 align-items-center">
                     <div className="col-md-6 wow fadeInUp" data-wow-delay=".2s">
@@ -392,7 +392,7 @@ const page = () => {
       {/* Cta Video Section Start */}
       <div
         className="cta-video-section fix bg-cover"
-        style={{ backgroundImage: 'url("assets/img/cta/sphamp.jpg")' }}
+        style={{ backgroundImage: 'url("/assets/img/cta/sphamp.jpg")' }}
       >
         <div className="container">
           <div className="cta-video-wrapper">
@@ -699,7 +699,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Swahilipot Hub in Numbers
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -712,16 +712,16 @@ const page = () => {
       {/* Popular Case Study Section Start */}
       <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
-          <img src="assets/img/case-study/left-shape.png" alt="shape-img" />
+          <img src="/assets/img/case-study/left-shape.png" alt="shape-img" />
         </div>
         <div className="right-shape">
-          <img src="assets/img/case-study/right-shape.png" alt="shape-img" />
+          <img src="/assets/img/case-study/right-shape.png" alt="shape-img" />
         </div>
         <div className="container">
           <div className="section-title-area">
             <div className="section-title">
               <span className="sub-content wow fadeInUp">
-                <img src="assets/img/bale.png" alt="img" />
+                <img src="/assets/img/bale.png" alt="img" />
                 Swahilipot Spaces
               </span>
               <h2 className="text-white wow fadeInUp" data-wow-delay=".3s">
@@ -739,7 +739,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/spaces/Mekatilili.webp" alt="img" />
+                  <img src="/assets/img/spaces/Mekatilili.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Mekatilili</p>
@@ -760,7 +760,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/spaces/ali.webp" alt="img" />
+                  <img src="/assets/img/spaces/ali.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Ali Mazurui</p>
@@ -781,7 +781,7 @@ const page = () => {
             >
               <div className="case-study-items">
                 <div className="thumb">
-                  <img src="assets/img/spaces/Amp.webp" alt="img" />
+                  <img src="/assets/img/spaces/Amp.webp" alt="img" />
                 </div>
                 <div className="content">
                   <p>Amphitheatre</p>
@@ -808,7 +808,7 @@ const page = () => {
             <div className="row g-4">
               <div className="col-lg-3">
                 <div className="testimonial-image">
-                  <img src="assets/img/testimonial/testimonial.png" alt="img" />
+                  <img src="/assets/img/testimonial/testimonial.png" alt="img" />
                 </div>
               </div>
               <div className="col-lg-7 ps-lg-5">
@@ -823,7 +823,7 @@ const page = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               News &amp; Blog
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
@@ -831,51 +831,49 @@ const page = () => {
             </h2>
           </div>
           <div className="row">
+          <div
+              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+              data-wow-delay=".5s"
+            >
+              <div className="news-box-items">
+                <div className="news-content">
+                  <p>Mar 19, 2025</p>
+                  <h4>
+                    <Link href="#">
+                    Awarded for Exemplary Work in the Community
+                    </Link>
+                  </h4>
+                  <Link className="link-btn" href="#">
+                    Read More
+                    <i className="far fa-arrow-right" />
+                  </Link>
+                </div>
+                <div
+                  className="news-image bg-cover"
+                  style={{ backgroundImage: 'url("/assets/img/news/award.jpg")' }}
+                />
+              </div>
+            </div>
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".3s"
             >
               <div className="news-box-items">
                 <div className="news-content">
-                  <p>November 25, 2024</p>
+                  <p>Mar 18, 2025</p>
                   <h4>
-                    <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
+                    <Link href="https://thecodefather.substack.com/p/untitled-0?r=jlxxp&utm_campaign=post&utm_medium=web&triedRedirect=true" target="_blank" rel="noopener noreferrer">
+                    Trying Out MongoDB database Backend for Django
                     </Link>
                   </h4>
-                  <Link className="link-btn" href="news-details">
+                  <Link className="link-btn" href="https://thecodefather.substack.com/p/untitled-0?r=jlxxp&utm_campaign=post&utm_medium=web&triedRedirect=true" target="_blank" rel="noopener noreferrer">
                     Read More
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/01.jpg")' }}
-                />
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
-              data-wow-delay=".5s"
-            >
-              <div className="news-box-items">
-                <div className="news-content">
-                  <p>November 25, 2024</p>
-                  <h4>
-                    <Link href="news-details">
-                      List of 5 ways Generating Real Time Audio Sentiment
-                      Analysis
-                    </Link>
-                  </h4>
-                  <Link className="link-btn" href="news-details">
-                    Read More
-                    <i className="far fa-arrow-right" />
-                  </Link>
-                </div>
-                <div
-                  className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/02.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/news/untitled.webp")' }}
                 />
               </div>
             </div>
@@ -885,21 +883,20 @@ const page = () => {
             >
               <div className="news-box-items">
                 <div className="news-content">
-                  <p>November 25, 2024</p>
+                  <p>May 31, 2024</p>
                   <h4>
-                    <Link href="news-details">
-                      Revealing Images With Animations Gradients, Blend Modes
-                      Cool
+                    <Link href="https://medium.com/@swahilipotengineering/a-comprehensive-guide-to-building-ats-compliant-resumes-ab52933d517f" target="_blank" rel="noopener noreferrer">
+                    A Comprehensive Guide to Building ATS-Compliant Resumes
                     </Link>
                   </h4>
-                  <Link className="link-btn" href="news-details">
+                  <Link className="link-btn" href="https://medium.com/@swahilipotengineering/a-comprehensive-guide-to-building-ats-compliant-resumes-ab52933d517f" target="_blank" rel="noopener noreferrer">
                     Read More
                     <i className="far fa-arrow-right" />
                   </Link>
                 </div>
                 <div
                   className="news-image bg-cover"
-                  style={{ backgroundImage: 'url("assets/img/news/03.jpg")' }}
+                  style={{ backgroundImage: 'url("/assets/img/news/resume.webp")' }}
                 />
               </div>
             </div>
