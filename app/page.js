@@ -188,7 +188,7 @@ const page = () => {
         </div>
       </section>
       {/* About Section Start */}
-      <section className="about-section fix section-padding">
+      {/* <section className="about-section fix section-padding">
         <div className="container">
           <div className="about-wrapper">
             <div className="row g-4 align-items-center">
@@ -271,18 +271,18 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Service Section Start */}
       <section className="service-section section-padding pt-0">
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content wow fadeInUp">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Popular Services
             </span>
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
-              We Provide Best Quality Service <br />
-              For Your Business
+              We Provide Best Quality Services <br />
+              Empowering Young Individuals in Technology
             </h2>
           </div>
           <div className="row">
@@ -295,17 +295,17 @@ const page = () => {
                   <i className="flaticon-technical" />
                 </div>
                 <h3>
-                  <Link href="service-details">
-                    Data Center and Cloud Services
+                  <Link href="#">
+                  Data and Research
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/04.png" alt="service-img" />
+                  <img src="/assets/img/service/data.jpg" alt="service-img" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
-                <Link className="link-btn" href="service-details">
+                <Link className="link-btn" href="#">
                   Read More
                   <i className="far fa-arrow-right" />
                 </Link>
@@ -320,17 +320,17 @@ const page = () => {
                   <i className="flaticon-vector-design" />
                 </div>
                 <h3>
-                  <Link href="service-details">
-                    Web Development Software Renew
+                  <Link href="#">
+                  Digital Literacy Program
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/05.png" alt="service-img" />
+                  <img src="/assets/img/service/indattch.jpg" alt="service-img" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
-                <Link className="link-btn" href="service-details">
+                <Link className="link-btn" href="#">
                   Read More
                   <i className="far fa-arrow-right" />
                 </Link>
@@ -345,17 +345,17 @@ const page = () => {
                   <i className="flaticon-database" />
                 </div>
                 <h3>
-                  <Link href="service-details">
-                    IT Management Machine Learning
+                  <Link href="#">
+                  Campus Ambassador
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/06.png" alt="service-img" />
+                  <img src="/assets/img/service/campustr.jpg" alt="service-img" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
-                <Link className="link-btn" href="service-details">
+                <Link className="link-btn" href="#">
                   Read More
                   <i className="far fa-arrow-right" />
                 </Link>
@@ -370,17 +370,17 @@ const page = () => {
                   <i className="flaticon-design-thinking" />
                 </div>
                 <h3>
-                  <Link href="service-details">
-                    Digital Product UI/UX Design
+                  <Link href="#">
+                  Industrial Attachment
                   </Link>
                 </h3>
                 <div className="service-thumb">
-                  <img src="assets/img/service/07.png" alt="service-img" />
+                  <img src="/assets/img/service/indattch.jpg" alt="service-img" />
                   <div className="line-shape">
                     <img src="assets/img/service/line.png" alt="shape-img" />
                   </div>
                 </div>
-                <Link className="link-btn" href="service-details">
+                <Link className="link-btn" href="#">
                   Read More
                   <i className="far fa-arrow-right" />
                 </Link>
@@ -802,7 +802,7 @@ const page = () => {
       {/* Pricing Section Start */}
       <Pillars />
       {/* Testimonial Section Start */}
-      <section className="testimonial-section fix section-padding pt-0">
+      {/* <section className="testimonial-section fix section-padding pt-0">
         <div className="container">
           <div className="testimonial-wrapper">
             <div className="row g-4">
@@ -817,7 +817,7 @@ const page = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* News Section Start */}
       <section className="news-section section-padding pt-0">
         <div className="container">

@@ -120,7 +120,7 @@ const Menu = ({ single, menu }) => {
               </Link>
             </li>
             <li>
-              <Link href="contact">Contact</Link>
+              <Link href="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
@@ -472,8 +472,8 @@ const Header2 = ({ single }) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
+                  <Link href="#" className="theme-btn bg-2">
+                    DONATE
                   </Link>
                 </div>
                 <div className="header__hamburger d-xl-none my-auto">
@@ -539,8 +539,8 @@ const Header3 = ({ single }) => {
                   </div>
                 </div>
                 <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
+                  <Link href="#" className="theme-btn bg-2">
+                    DONATE
                   </Link>
                 </div>
                 <div className="header__hamburger d-xl-none my-auto">
@@ -646,8 +646,8 @@ const Header6 = ({ single }) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <div className="header-button">
-                  <Link href="contact" className="theme-btn bg-2">
-                    Get A Quote
+                  <Link href="#" className="theme-btn bg-2">
+                    DONATE
                   </Link>
                 </div>
                 <div className="header__hamburger d-xl-block my-auto">

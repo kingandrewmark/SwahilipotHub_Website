@@ -27,7 +27,7 @@ const Pillars = () => {
                 <p>We equip young minds with essential tech skills through hands-on programs like Data and Research, Digital Literacy, Industrial Attachment, Campus Ambassador, and dynamic Pitching Thursdays.</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="/Departments/Technology" className="theme-btn style-transparent">
                 🔍 Discover Innovation
                 </Link>
               </div>
@@ -46,7 +46,7 @@ const Pillars = () => {
                 <p>We foster creative expression through programs like Sanaa Show and Sanaart Shop, supporting talents in acting, voice arts, and visual storytelling to inspire community impact.</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="#" className="theme-btn style-transparent">
                 📣 Unleash Your Creativity
                 </Link>
               </div>
@@ -65,7 +65,7 @@ const Pillars = () => {
                 <p>We celebrate cultural heritage by preserving stories, traditions, and experiences, bridging the gap between history and future generations through immersive programs.</p>
               </div>
               <div className="pricing-button">
-                <Link href="contact" className="theme-btn style-transparent">
+                <Link href="#" className="theme-btn style-transparent">
                 🌍 Preserve Our Legacy
                 </Link>
               </div>
