@@ -1,11 +1,56 @@
 import React from "react";
+import { FaLightbulb } from "react-icons/fa"; // Importing an icon
 
 const Vision = () => {
   return (
-    <section className="py-12">
-      <div className="container mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-gray-900">Our Vision</h2>
-        <p className="text-gray-600 mt-2">To inspire communities to thrive</p>
+    <section
+      style={{
+        padding: "80px 20px",
+        background: "linear-gradient(135deg, #e0f7fa 0%, #80deea 100%)",
+        textAlign: "center",
+      }}
+    >
+      <div className="container mx-auto px-6">
+        {/* Icon */}
+        <div
+          style={{
+            fontSize: "50px",
+            color: "#1d3557",
+            marginBottom: "15px",
+            display: "inline-block",
+            background: "#fff",
+            padding: "15px",
+            borderRadius: "50%",
+            boxShadow: "0px 5px 15px rgba(0,0,0,0.2)",
+          }}
+        >
+          <FaLightbulb />
+        </div>
+
+        {/* Title */}
+        <h2
+          style={{
+            fontSize: "38px",
+            fontWeight: "bold",
+            color: "#1d3557",
+            marginBottom: "10px",
+          }}
+        >
+          Our Vision
+        </h2>
+
+        {/* Description */}
+        <p
+          style={{
+            fontSize: "20px",
+            color: "#444",
+            maxWidth: "700px",
+            margin: "0 auto",
+            lineHeight: "1.6",
+          }}
+        >
+          To inspire communities to thrive.
+        </p>
       </div>
     </section>
   );

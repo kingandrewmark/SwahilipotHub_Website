@@ -17,7 +17,7 @@ const page = () => {
                       Contact Us
                     </span>
                     <h2 className="wow fadeInUp" data-wow-delay=".3s">
-                      Don’t Hessite to Contact <br />
+                      Don’t Hesitate to Contact <br />
                       Our Team Member
                     </h2>
                   </div>

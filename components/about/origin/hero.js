@@ -4,53 +4,49 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      {/* Hero */}
-      <div className="shape-container overflow-hidden">
-        <div className="bg-primary-dark position-relative">
-          <div className="container content-space-1 content-space-t-md-3 sb-md-4">
-            <div className="position-relative w-lg-75 text-center mx-lg-auto">
-              <div className="mb-7">
-                <h1 className="text-white font-bold text-4xl md:text-5xl">
-                  Our <span className="text-warning">Origin Story</span>
-                </h1>
-                <p 
-                  className="text-gray-900 text-xl md:text-2xl font-semibold mt-3 tracking-wide text-center"
-                  style={{
-                    textTransform: "uppercase",
-                    letterSpacing: "2px",
-                    margin: "0 auto",
-                    width: "fit-content",
-                    padding: "10px 20px",
-                  }}
-                >
-                  Learn how we have grown over the years
-                </p>
-              </div>
-              {/* End Row */}
-
-              {/* Background Shapes */}
-              <div
-                className="position-absolute"
-                style={{ top: "-6rem", left: "-6rem" }}
-              ></div>
-              <div
-                className="position-absolute"
-                style={{ bottom: "-12rem", right: "-7rem" }}
-              ></div>
-              {/* End Background Shapes */}
-            </div>
-          </div>
+      {/* Hero Section */}
+      <div className="hero-container">
+        <div className="hero-content">
+          <h1 className="hero-title">
+            Our <span className="highlight">Origin Story</span>
+          </h1>
+          <p className="hero-subtitle">
+            Learn how we have grown over the years
+          </p>
         </div>
-
-        {/* Shape */}
-        <div className="shape shape-bottom zi-1">
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 100.1">
-            <path fill="#fff" d="M0,0c0,0,934.4,93.4,1920,0v100.1H0L0,0z" />
-          </svg>
-        </div>
-        {/* End Shape */}
       </div>
-      {/* End Hero */}
+
+      {/* Custom Styles */}
+      <style jsx>{`
+        .hero-container {
+          background: linear-gradient(135deg, #1e293b, #334155);
+          padding: 100px 20px;
+          text-align: center;
+          color: white;
+          position: relative;
+        }
+
+        .hero-title {
+          font-size: 3rem;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+
+        .highlight {
+          color: #facc15;
+        }
+
+        .hero-subtitle {
+          font-size: 1.2rem;
+          text-transform: uppercase;
+          letter-spacing: 1.5px;
+          background: rgba(255, 255, 255, 0.1);
+          display: inline-block;
+          padding: 10px 20px;
+          border-radius: 5px;
+          margin-top: 15px;
+        }
+      `}</style>
     </>
   );
 };

@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Hero = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
-  const videoId = "YOUR_VIDEO_ID"; // Replace with actual YouTube video ID
+  const videoId = "bscypssE8Ms"; // Your correct YouTube video ID
 
   return (
     <section style={{ textAlign: "center", padding: "50px 20px", backgroundColor: "#f8f9fa" }}>
@@ -24,15 +24,24 @@ const Hero = () => {
             maxWidth: "800px",
             margin: "20px auto",
             cursor: "pointer",
+            borderRadius: "10px",
+            overflow: "hidden",
+            boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.2)"
           }}
           onClick={() => setVideoLoaded(true)}
         >
           {!videoLoaded ? (
             <div style={{ position: "relative" }}>
               <img
-                src={`https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`}
+                src={`https://img.youtube.com/vi/${videoId}/hqdefault.jpg`}
                 alt="YouTube Video Thumbnail"
-                style={{ width: "100%", borderRadius: "10px" }}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                  display: "block",
+                  borderRadius: "10px",
+                  objectFit: "cover",
+                }}
               />
               <div
                 style={{
