@@ -712,10 +712,10 @@ const page = () => {
       {/* Popular Case Study Section Start */}
       <section className="case-study-section fix section-padding theme-bg">
         <div className="left-shape">
-          <img src="/assets/img/case-study/left-shape.png" alt="shape-img" />
+          {/* <img src="/assets/img/case-study/left-shape.png" alt="shape-img" /> */}
         </div>
         <div className="right-shape">
-          <img src="/assets/img/case-study/right-shape.png" alt="shape-img" />
+          {/* <img src="/assets/img/case-study/right-shape.png" alt="shape-img" /> */}
         </div>
         <div className="container">
           <div className="section-title-area">

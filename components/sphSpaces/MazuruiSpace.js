@@ -17,7 +17,7 @@ const MazuruiSpace = () => {
               <div className="col-lg-8">
                 <div className="project-details-image">
                   <Image
-                    src="/images/spaces/alimazurui/ali1.jpg"
+                    src="/ali1.webp"
                     alt="Ali Mazrui Cultural Center"
                     width={800}
                     height={500}
@@ -91,7 +91,7 @@ const MazuruiSpace = () => {
                 <div className="col-lg-6">
                   <div className="thumb">
                     <Image
-                      src="/images/spaces/alimazurui/ali2.jpg"
+                      src="/ali1.webp"
                       alt="Ali Mazrui Cultural Center"
                       width={600}
                       height={400}
@@ -102,7 +102,7 @@ const MazuruiSpace = () => {
                 <div className="col-lg-6">
                   <div className="thumb">
                     <Image
-                      src="/images/spaces/alimazurui/ali3.jpg"
+                      src="/ali1.webp"
                       alt="Ali Mazrui Cultural Center"
                       width={600}
                       height={400}
@@ -132,7 +132,7 @@ const MazuruiSpace = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className="sub-content">
-              <img src="assets/img/bale.png" alt="img" />
+              <img src="/assets/img/bale.png" alt="img" />
               Work Gallery
             </span>
             <h2>Explore Similar Cultural Spaces</h2>
@@ -144,7 +144,7 @@ const MazuruiSpace = () => {
                   <div className="project-card-items">
                     <div className="project-image">
                       <Image
-                        src="/images/spaces/mekatilili/related1.jpg"
+                        src="/ali1.webp"
                         alt="Cultural Space"
                         width={500}
                         height={350}
@@ -166,7 +166,7 @@ const MazuruiSpace = () => {
                   <div className="project-card-items">
                     <div className="project-image">
                       <Image
-                        src="/images/spaces/mekatilili/related2.jpg"
+                        src="/ali1.webp"
                         alt="Cultural Events"
                         width={500}
                         height={350}
