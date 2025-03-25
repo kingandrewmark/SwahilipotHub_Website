@@ -744,7 +744,7 @@ const page = () => {
                 <div className="content">
                   <p>Mekatilili</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/spaces/mekatilili">
                       Swahilipot HUB Mekatilili Space
                     </Link>
                   </h3>
@@ -765,7 +765,7 @@ const page = () => {
                 <div className="content">
                   <p>Ali Mazurui</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/spaces/mazurui">
                     Swahilipot HUB Ali Mazurui Space
                     </Link>
                   </h3>
@@ -786,7 +786,7 @@ const page = () => {
                 <div className="content">
                   <p>Amphitheatre</p>
                   <h3>
-                    <Link href="case-study-details">
+                    <Link href="/spaces/amphitheatre">
                     Swahilipot HUB Amphitheatre Space
                     </Link>
                   </h3>

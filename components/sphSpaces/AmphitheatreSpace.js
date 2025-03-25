@@ -1,127 +1,203 @@
-import Image from 'next/image'
-import React from 'react'
+import Breadcrumb from "@/components/Breadcrumb";
+import NextLayout from "@/layouts/NextLayout";
+import Image from "next/image";
 
 const AmphitheatreSpace = () => {
   return (
-    <>
-      <div className="bg-primary-dark">
-        <div className="container content-space-1 content-space-md-2">
-          <div className="row justify-content-lg-center position-relative zi-2">
-            <div className="col-lg-8">
-              <div className="mb-6">
-                <h1 className="h2 text-white">Swahilipot Hub Amphitheater</h1>
-                <p className="lead text-white">Where Art Meets the Heart</p>
+    <NextLayout>
+      {/* Breadcrumb */}
+      <Breadcrumb pageName="Swahilipot Hub Amphitheater" />
+
+      {/* Hero Section */}
+      <section className="project-details-section fix section-padding">
+        <div className="container">
+          <div className="project-details-wrapper">
+            <div className="row g-4 justify-content-between">
+              {/* Left Image */}
+              <div className="col-lg-8">
+                <div className="project-details-image">
+                  <Image
+                    src="/Amp3.webp"
+                    alt="Swahilipot Hub Amphitheater"
+                    width={800}
+                    height={500}
+                    className="img-fluid"
+                  />
+                </div>
               </div>
 
-              <div className="mt-5">
-                <Image
-                  className="img-fluid"
-                  src="/images/spaces/amp/Amp3.jpg"
-                  alt="Image Description"
-                />
+              {/* Right Image */}
+              <div className="col-lg-4">
+                <div className="project-details-image">
+                  <Image
+                    src="/Amp1.webp"
+                    alt="Amphitheater"
+                    width={500}
+                    height={500}
+                    className="img-fluid"
+                  />
+                </div>
+              </div>
+
+              {/* Content Section */}
+              <div className="col-lg-7">
+                <div className="project-details-content">
+                  <h5>Where Art and Entertainment Flourish</h5>
+                  <h2>
+                    Experience the Vibrance of <br /> Swahilipot Hub Amphitheater
+                  </h2>
+                  <p className="mt-4">
+                    Step into the Swahilipot Hub Amphitheater, a dynamic space
+                    that brings together culture, creativity, and entertainment.
+                    It serves as a hub for performances, community events, and
+                    artistic expression.
+                  </p>
+
+                  <h4 className="mt-50">Benefits to the Community</h4>
+                  <ul className="project-list">
+                    <li>
+                      <i className="far fa-check" />
+                      Cultural Enrichment - A stage for traditional and modern performances.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      Entertainment for All Ages - Events catering to diverse audiences.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      Community Unity - A space where people connect through art.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      Inspiration & Aspiration - A platform for emerging talent.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Project Information */}
+              <div className="col-lg-5">
+                <div className="project-information">
+                  <h4>Amphitheatre Info</h4>
+                  <ul>
+                    <li>
+                      Location <span>Mombasa, Kenya</span>
+                    </li>
+                    <li>
+                      Purpose <span>Performance & Art Space</span>
+                    </li>
+                    <li>
+                      Activities <span>Concerts, Theater, Cultural Events</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="shape-container">
-        <div className="shape shape-bottom zi-1">
-          <svg
-            width="3000"
-            height="600"
-            viewBox="0 0 3000 600"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
-          </svg>
-        </div>
-      </div>
+            {/* Additional Images */}
+            <div className="project-details-img mt-50">
+              <div className="row g-4">
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/Amp1.webp"
+                      alt="Amphitheater Event"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/Amp3.webp"
+                      alt="Live Performance"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <div className="container content-space-b-1 content-space-b-md-3">
-        <div className="row justify-content-lg-center">
-          <div className="col-lg-8">
-            <figure className="mb-3">
-              <blockquote className="blockquote">
-                Where Art and Entertainment Flourish
-              </blockquote>
-            </figure>
-
-            <p>
-              Step into the Community Hub Amphitheater, an enchanting space
-              where art, culture, and entertainment come to life. This
-              amphitheater is a testament to the creative spirit of our
-              community and the celebration of the performing arts.
+            {/* Legacy Section */}
+            <h4 className="mb-3">The Heart of Art and Entertainment</h4>
+            <p className="mt-3">
+              The Swahilipot Hub Amphitheater is more than just a venue; it's a
+              cultural landmark where creative minds come together to celebrate
+              music, theater, and storytelling. Join us in keeping the arts
+              alive!
             </p>
+          </div>
+        </div>
+      </section>
 
-            <div className="my-5">
-              <Image
-                className="img-fluid"
-                src="/images/spaces/amp/Amp1.jpg"
-                alt="Image Description"
-              />
-            </div>
-            <h3>Benefits to the Community:</h3>
-            <div className="mb-5">
-              <h5>1: Cultural Enrichment:</h5>
-
-              <p>
-                Step into the Community Hub Amphitheater, an enchanting space
-                where art, culture, and entertainment come to life. This
-                amphitheater is a testament to the creative spirit of our
-                community and the celebration of the performing arts.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>2: Entertainment For All Ages:</h5>
-
-              <p>
-                {' '}
-                From family-friendly events to cutting-edge performances, the
-                amphitheater offers a diverse range of entertainment, ensuring
-                that there's something for everyone in our community to enjoy.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>3: Community Unity: </h5>
-
-              <p>
-                It's a space where the community can come together to celebrate
-                the arts, fostering a sense of togetherness and shared
-                experiences.
-              </p>
-            </div>
-            <div className="mb-5">
-              <h5>4:Inspiration Aspiration: </h5>
-
-              <p>
-                Young talents can use this space to showcase their potential,
-                dream big, and be inspired by the creativity that surrounds them
-                .
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>The Heart of Art and Entertainment</h5>
-
-              <p>
-                The Community Hub Amphitheater is more than just a performance
-                venue; it's a reflection of our shared love for art and
-                entertainment. It's where moments of wonder, joy, and
-                inspiration are created, and it's a space that is open to all
-                who appreciate the magic of live performances. Join us in
-                celebrating the arts in a space where creativity knows no
-                bounds.
-              </p>
+      {/* Featured Projects Section */}
+      <section className="project-section section-padding pt-0">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="sub-content">
+              <img src="/assets/img/bale.png" alt="img" />
+              Work Gallery
+            </span>
+            <h2>Explore Similar Performance Spaces</h2>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="row justify-content-center">
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/Amp3.webp"
+                        alt="Community Stage"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Performance Venue</p>
+                      <h3>
+                        <a href="#">
+                          Mombasa Cultural <br />
+                          Theatre
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/Amp1.webp"
+                        alt="Art Center"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Art & Culture</p>
+                      <h3>
+                        <a href="#">
+                          Coastal Arts <br />
+                          Center
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
-  )
-}
+      </section>
+    </NextLayout>
+  );
+};
 
-export default AmphitheatreSpace
+export default AmphitheatreSpace;

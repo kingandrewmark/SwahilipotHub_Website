@@ -1,229 +1,207 @@
-import Image from 'next/image'
-import React from 'react'
+import Breadcrumb from "@/components/Breadcrumb";
+import NextLayout from "@/layouts/NextLayout";
+import Image from "next/image";
 
 const CommunitySpace = () => {
   return (
-    <>
-      <div className="bg-primary-dark">
-        <div className="container content-space-1 content-space-md-2">
-          <div className="row justify-content-lg-center position-relative zi-2">
-            <div className="col-lg-8">
-              <ul className="list-inline list-separator list-separator-light mb-4">
-                <li className="list-inline-item">
-                  <a className="text-uppercase link-light small" href="#">
-                    Process
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <a className="text-uppercase link-light small" href="#">
-                    Use case
-                  </a>
-                </li>
-                <li className="list-inline-item">
-                  <span className="text-uppercase text-light small">
-                    5 min read
-                  </span>
-                </li>
-              </ul>
+    <NextLayout>
+      {/* Breadcrumb */}
+      <Breadcrumb pageName="Community Space" />
 
-              <div className="mb-6">
-                <h1 className="h2 text-white">Community Space</h1>
-                <p className="lead text-white">
-                  Your Place, Your Space, Your Community.
-                </p>
+      {/* Hero Section */}
+      <section className="project-details-section fix section-padding">
+        <div className="container">
+          <div className="project-details-wrapper">
+            <div className="row g-4 justify-content-between">
+              {/* Left Image */}
+              <div className="col-lg-8">
+                <div className="project-details-image">
+                  <Image
+                    src="/community.jpg"
+                    alt="Community Space"
+                    width={800}
+                    height={500}
+                    className="img-fluid"
+                  />
+                </div>
               </div>
 
-              <div className="mt-5">
-                {/*<img
-                                className='img-fluid'
-                                height={400}
-                                width={400}
-                                src='https://res.cloudinary.com/swahilipothubdev/image/upload/v1701851087/communityspace_bm70vl.jpg' 
-                                alt="Image Description" 
-                                /> */}
+              {/* Right Image */}
+              <div className="col-lg-4">
+                <div className="project-details-image">
+                  <Image
+                    src="/community.jpg"
+                    alt="Community Space"
+                    width={500}
+                    height={500}
+                    className="img-fluid"
+                  />
+                </div>
+              </div>
 
-                <Image
-                  src="https://res.cloudinary.com/swahilipothubdev/image/upload/v1702109230/DSC00572_tsykbc.jpg"
-                  height={400}
-                  width={600}
-                  alt="Community Spaces"
-                />
+              {/* Content Section */}
+              <div className="col-lg-7">
+                <div className="project-details-content">
+                  <h5>Community & Engagement</h5>
+                  <h2>
+                    Your Place, Your Space, <br /> Your Community.
+                  </h2>
+                  <p className="mt-4">
+                    The Community Space is a vibrant and welcoming environment
+                    where individuals gather to share knowledge, celebrate
+                    culture, and foster innovation. It serves as a hub for
+                    workshops, discussions, and collaborative initiatives.
+                  </p>
+
+                  <h4 className="mt-50">Benefits to the Community</h4>
+                  <ul className="project-list">
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Versatility</strong> - Ideal for meetings,
+                      workshops, exhibitions, and social gatherings.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Community Engagement</strong> - A space to share
+                      ideas, collaborate, and discuss local initiatives.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Cultural Celebrations</strong> - Honoring diverse
+                      traditions through art, performances, and exhibitions.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Empowerment & Growth</strong> - Fostering
+                      knowledge-sharing and skill development for all.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Project Information */}
+              <div className="col-lg-5">
+                <div className="project-information">
+                  <h4>Community Space</h4>
+                  <ul>
+                    <li>
+                      Location <span>Mombasa, Kenya</span>
+                    </li>
+                    <li>
+                      Purpose <span>Community Gathering & Events</span>
+                    </li>
+                    <li>
+                      Activities <span>Meetings, Workshops, Cultural Events</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="shape-container">
-        <div className="shape shape-bottom zi-1">
-          <svg
-            width="3000"
-            height="600"
-            viewBox="0 0 3000 600"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
-          </svg>
-        </div>
-      </div>
+            {/* Additional Images */}
+            <div className="project-details-img mt-50">
+              <div className="row g-4">
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/community.jpg"
+                      alt="Community Space"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/community.jpg"
+                      alt="Community Space"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <div className="container content-space-b-1 content-space-b-md-3">
-        <div className="row justify-content-lg-center">
-          <div className="col-lg-8">
-            <figure className="mb-3">
-              <blockquote className="blockquote">
-                “ Your Place, Your Space, Your Community. “
-              </blockquote>
-            </figure>
-
-            <p>
-              Welcome to the heart of our community hub, the Community Space,
-              where the essence of unity, collaboration, and togetherness
-              thrives. This versatile area is a reflection of the values and
-              spirit that bind our community together.
+            {/* Closing Section */}
+            <h4 className="mb-3">Where Community Thrives</h4>
+            <p className="mt-3">
+              The Community Space at Swahilipot Hub is more than just a venue;
+              it’s a reflection of shared values, aspirations, and creativity.
+              It’s a space where people connect, innovate, and celebrate the
+              spirit of community.
             </p>
+          </div>
+        </div>
+      </section>
 
-            <h3>Benefits to the Community:</h3>
-
-            <div className="my-5">
-              <Image
-                className="img-fluid"
-                src="https://res.cloudinary.com/swahilipothubdev/image/upload/v1701851089/communityspace2_pahcox.jpg"
-                alt="Image Description"
-              />
-              {/* {/* <Image className="img-fluid" src="../assets/img/900x600/img4.jpg" alt="Image Description" /> */}{' '}
-              *
-            </div>
-            <h3>Benefits to the Community:</h3>
-            <div className="mb-5">
-              <h5>1: Versatility: </h5>
-
-              <p>
-                Whether you need a place for community meetings, workshops,
-                exhibitions, or social gatherings, the Community Space is your
-                canvas. It's a place where ideas come to life and connections
-                are forged.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>2: Community Engagement:</h5>
-
-              <p>
-                {' '}
-                It is in this space that our community engages in discussions,
-                shares information, and collaborates on projects that matter.
-                It's where we shape the present and future of our neighborhood.
-              </p>
-            </div>
-
-            <div className="my-5">
-              {/* {/* <Image className="img-fluid" src="../assets/img/900x600/img5.jpg" alt="Image Description" /> */}
-            </div>
-
-            <div className="mb-5">
-              <h5>3: Cultural Celebrations: </h5>
-
-              <p>
-                The Community Space is where we celebrate our diverse heritage.
-                From cultural festivals to art exhibitions, it's a place where
-                traditions are honored and creativity is showcased.
-              </p>
-            </div>
-            <div className="mb-5">
-              <h5>4: Support and Empowerment: </h5>
-
-              <p>
-                It's more than just a physical space; it's a symbol of support
-                and empowerment. Here, we connect, inspire, and uplift one
-                another, creating a strong sense of community belonging.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>Where Community Thrives</h5>
-
-              <p>
-                The Community Space at SWAHILIPOT HUB is more than bricks and
-                mortar; it's the embodiment of our shared values, aspirations,
-                and identity. It's a space that is defined by the community, for
-                the community, and we invite you to make it your own. Join us in
-                building a stronger, more connected, and vibrant community
-                together in this space we hold dear.
-              </p>
-            </div>
-
-            <div className="row">
-              <div className="col-sm-6 mb-5 mb-sm-0">
-                <div className="d-flex align-items-center">
-                  <h6 className="me-3 mb-0">Share:</h6>
-
-                  <ul className="list-inline mb-0">
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-ghost-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-facebook"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-ghost-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-twitter"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-ghost-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-instagram"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-ghost-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-linkedin"></i>
-                      </a>
-                    </li>
-                  </ul>
+      {/* Featured Projects Section */}
+      <section className="project-section section-padding pt-0">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="sub-content">
+              <img src="/assets/img/bale.png" alt="img" />
+              Work Gallery
+            </span>
+            <h2>Explore Similar Community Spaces</h2>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="row justify-content-center">
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/community.jpg"
+                        alt="Community Space"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Community Hub</p>
+                      <h3>
+                        <a href="#">
+                          Nyali Youth Resource <br />
+                          Center
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
-              </div>
-
-              <div className="col-sm-6">
-                <div className="d-flex justify-content-sm-end">
-                  <ul className="list-inline mb-0">
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-soft-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-bookmark"></i>
-                      </a>
-                    </li>
-                    <li className="list-inline-item">
-                      <a
-                        className="btn btn-soft-secondary btn-icon btn-sm rounded-circle"
-                        href="#"
-                      >
-                        <i className="bi-flag"></i>
-                      </a>
-                    </li>
-                  </ul>
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/community.jpg"
+                        alt="Community Gathering"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Cultural Center</p>
+                      <h3>
+                        <a href="#">
+                          Swahili Heritage <br />
+                          Museum
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
-  )
-}
+      </section>
+    </NextLayout>
+  );
+};
 
-export default CommunitySpace
+export default CommunitySpace;

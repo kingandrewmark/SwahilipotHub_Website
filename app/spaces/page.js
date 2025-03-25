@@ -31,7 +31,7 @@ const page = () => {
                     <div className="project-content">
                       <p>Mwana Kupona</p>
                       <h3>
-                        <Link href="project-details">
+                        <Link href="/spaces/mwanakupona">
                           Swahilipot Hub <br />
                           Mwana Kupona Space
                         </Link>
@@ -50,7 +50,7 @@ const page = () => {
                     <div className="project-content">
                       <p>Community Space</p>
                       <h3>
-                        <Link href="project-details">
+                        <Link href="/spaces/community-space">
                           Swahilipot HUB <br />
                           Community Space
                         </Link>
@@ -69,7 +69,7 @@ const page = () => {
                     <div className="project-content">
                       <p>Mekatilili</p>
                       <h3>
-                        <Link href="project-details">
+                        <Link href="/spaces/mekatilili">
                           Swahilipot HUB <br />
                           Mekatilili Space
                         </Link>
@@ -88,7 +88,7 @@ const page = () => {
                     <div className="project-content">
                       <p>Ali Mazurui Space</p>
                       <h3>
-                        <Link href="project-details">
+                        <Link href="/spaces/mazurui">
                           Swahilipot HUB <br />
                           Ali Mazurui Space
                         </Link>
@@ -107,7 +107,7 @@ const page = () => {
                     <div className="project-content">
                       <p>Amphitheatre Space</p>
                       <h3>
-                        <Link href="project-details">
+                        <Link href="/spaces/amphitheatre">
                           Swahilipot HUB <br />
                           Amphitheatre Space
                         </Link>

@@ -1,120 +1,196 @@
-import Image from 'next/image'
-import React from 'react'
+import Breadcrumb from "@/components/Breadcrumb";
+import NextLayout from "@/layouts/NextLayout";
+import Image from "next/image";
 
 const MazuruiSpace = () => {
   return (
-    <>
-      <div className="bg-primary-dark">
-        <div className="container content-space-1 content-space-md-2">
-          <div className="row justify-content-lg-center position-relative zi-2">
-            <div className="col-lg-8">
-              <div className="mb-6">
-                <h1 className="h2 text-white">Ali Mazrui Cultural Center</h1>
-                <p className="lead text-white">
-                  Celebrating Intellectual Excellence.
-                </p>
+    <NextLayout>
+      {/* Breadcrumb */}
+      <Breadcrumb pageName="Ali Mazrui Cultural Center" />
+
+      {/* Hero Section */}
+      <section className="project-details-section fix section-padding">
+        <div className="container">
+          <div className="project-details-wrapper">
+            <div className="row g-4 justify-content-between">
+              {/* Left Image */}
+              <div className="col-lg-8">
+                <div className="project-details-image">
+                  <Image
+                    src="/images/spaces/alimazurui/ali1.jpg"
+                    alt="Ali Mazrui Cultural Center"
+                    width={800}
+                    height={500}
+                    className="img-fluid"
+                  />
+                </div>
               </div>
 
-              <div className="mt-5">
-                <Image
-                  className="img-fluid"
-                  src="/images/spaces/alimazurui/ali1.jpg"
-                  alt="Image Description"
-                />
+              {/* Content Section */}
+              <div className="col-lg-7">
+                <div className="project-details-content">
+                  <h5>Celebrating Intellectual Excellence</h5>
+                  <h2>Ali Mazrui Cultural Center</h2>
+                  <p className="mt-4">
+                    The Ali Mazrui Cultural Center is a space where the legacy
+                    of one of Kenya's most distinguished scholars and
+                    intellectuals, Ali Mazrui, continues to shine. This center
+                    embodies his passion for knowledge, diversity, and the power
+                    of ideas.
+                  </p>
+
+                  <h4 className="mt-50">Benefits to the Community</h4>
+                  <ul className="project-list">
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Learning and Research</strong> - A well-stocked
+                      library with books, journals, and digital resources for
+                      students and scholars.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Art and Culture</strong> - Showcasing African art,
+                      exhibitions, and cultural workshops.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Community Dialogue</strong> - Hosting discussions,
+                      lectures, and seminars for intellectual exchange.
+                    </li>
+                    <li>
+                      <i className="far fa-check" />
+                      <strong>Youth Empowerment</strong> - Offering mentorship
+                      programs, internships, and leadership events.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              {/* Project Information */}
+              <div className="col-lg-5">
+                <div className="project-information">
+                  <h4>Mazurui Info</h4>
+                  <ul>
+                    <li>
+                      Location <span>Mombasa, Kenya</span>
+                    </li>
+                    <li>
+                      Purpose <span>Education, Culture & Intellectual Growth</span>
+                    </li>
+                    <li>
+                      Activities <span>Research, Exhibitions, Seminars</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="shape-container">
-        <div className="shape shape-bottom zi-1">
-          <svg
-            width="3000"
-            height="600"
-            viewBox="0 0 3000 600"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path d="M0 600H3000V0L0 600Z" fill="#fff" />
-          </svg>
-        </div>
-      </div>
+            {/* Additional Images */}
+            <div className="project-details-img mt-50">
+              <div className="row g-4">
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/images/spaces/alimazurui/ali2.jpg"
+                      alt="Ali Mazrui Cultural Center"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="thumb">
+                    <Image
+                      src="/images/spaces/alimazurui/ali3.jpg"
+                      alt="Ali Mazrui Cultural Center"
+                      width={600}
+                      height={400}
+                      className="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
 
-      <div className="container content-space-b-1 content-space-b-md-3">
-        <div className="row justify-content-lg-center">
-          <div className="col-lg-8">
-            <figure className="mb-3">
-              <blockquote className="blockquote">
-                Celebrating Intellectual Excellence
-              </blockquote>
-            </figure>
-
-            <p>
-              The Ali Mazrui Cultural Center is a space where the legacy of one
-              of Kenya's most distinguished scholars and intellectuals, Ali
-              Mazrui, continues to shine. This center embodies his passion for
-              knowledge, diversity, and the power of ideas.
+            {/* Closing Section */}
+            <h4 className="mb-3">Ali Mazrui: A Scholar's Legacy</h4>
+            <p className="mt-3">
+              Ali Mazrui was a scholar, philosopher, and public intellectual who
+              made significant contributions to the fields of political science
+              and African studies. His commitment to addressing complex issues
+              through intellectual discourse continues to influence our
+              community. The Ali Mazrui Cultural Center is a tribute to his
+              enduring legacy.
             </p>
-            <h3>Benefits to the Community:</h3>
-            <div className="mb-5">
-              <h5>1: Learning and Research:</h5>
+          </div>
+        </div>
+      </section>
 
-              <p>
-                The library at the Ali Mazrui Cultural Center is stocked with an
-                extensive collection of books, journals, and digital resources.
-                It's the perfect place for students, scholars, and lifelong
-                learners to engage with knowledge.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>2: Art and Culture:</h5>
-
-              <p>
-                {' '}
-                The art gallery showcases a rich tapestry of Kenyan and African
-                art, fostering a deeper appreciation for our cultural heritage.
-                It also hosts exhibitions, workshops, and events that celebrate
-                local and international artistry.
-              </p>
-            </div>
-            <div className="mb-5">
-              <h5>3: Community Dialogue: </h5>
-
-              <p>
-                This space is ideal for discussions, lectures, and seminars on
-                diverse topics. It encourages open dialogue and intellectual
-                exchange that can lead to community growth and understanding.
-              </p>
-            </div>
-            <div className="mb-5">
-              <h5>4: Youth Empowerment: </h5>
-
-              <p>
-                The Ali Mazrui Cultural Center offers mentorship programs,
-                internships, and events specifically tailored to empower the
-                youth, inspiring the next generation of leaders and thinkers.
-              </p>
-            </div>
-
-            <div className="mb-5">
-              <h5>Ali Mazrui: A Scholar's Legacy</h5>
-
-              <p>
-                Ali Mazrui was a scholar, philosopher, and public intellectual
-                who made significant contributions to the fields of political
-                science and African studies. His commitment to addressing
-                complex issues through intellectual discourse continues to
-                influence our community. The Ali Mazrui Cultural Center is a
-                tribute to his enduring legacy.
-              </p>
+      {/* Featured Projects Section */}
+      <section className="project-section section-padding pt-0">
+        <div className="container">
+          <div className="section-title text-center">
+            <span className="sub-content">
+              <img src="assets/img/bale.png" alt="img" />
+              Work Gallery
+            </span>
+            <h2>Explore Similar Cultural Spaces</h2>
+          </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-9">
+              <div className="row justify-content-center">
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/images/spaces/mekatilili/related1.jpg"
+                        alt="Cultural Space"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Heritage Center</p>
+                      <h3>
+                        <a href="#">
+                          Swahili Heritage <br />
+                          Museum
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6">
+                  <div className="project-card-items">
+                    <div className="project-image">
+                      <Image
+                        src="/images/spaces/mekatilili/related2.jpg"
+                        alt="Cultural Events"
+                        width={500}
+                        height={350}
+                        className="img-fluid"
+                      />
+                    </div>
+                    <div className="project-content">
+                      <p>Educational Hub</p>
+                      <h3>
+                        <a href="#">
+                          Mombasa Knowledge <br />
+                          Center
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </>
-  )
-}
+      </section>
+    </NextLayout>
+  );
+};
 
-export default MazuruiSpace
+export default MazuruiSpace;
