@@ -1,1 +1,104 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* styles/globals.css */
+
+/* Accessibility Menu */
+.accessibility-menu {
+    position:fixed;
+    bottom: 80px;
+    right: 20px;
+    background: #2c3e50;
+    color: rgb(40, 40, 179);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 250px;
+    max-height: 70vh; /* Prevents it from overflowing the screen */
+    overflow-y: auto; /* Enables vertical scrolling */
+  }
+  
+  .accessibility-menu button {
+    display: block;
+    width: 100%;
+    background: #d8d6e1;
+    color: rgb(19, 10, 177);
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .accessibility-menu button:hover {
+    background: #2980b9;
+  }
+  
+  .close-btn {
+    background: #e74c3c !important;
+    padding: 8px !important;
+    font-size: 14px !important;
+  }
+  
+  .close-btn:hover {
+    background: #c0392b !important;
+  }
+  /* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+  
+  /* High Contrast Mode */
+  .high-contrast {
+    background: black !important;
+    color: rgb(13, 234, 61) !important;
+  }
+  
+  /* Large Cursor */
+  .large-cursor {
+    cursor: url("https://abs.twimg.com/a/1446542199/img/t1/web_ico_7/cursor_pointer.png"), auto;
+  }
+  
+  /* Increased Text Spacing */
+  .increased-spacing {
+    letter-spacing: 2px;
+  }
+  /* Highlight Links */
+.highlight-links a {
+    background-color: rgb(15, 229, 119);
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Hide Images */
+  .hide-images img {
+    display: none;
+  }
+  /* Dyslexia-Friendly Font */
+.dyslexia-friendly {
+    font-family: "Comic Sans MS", "Arial", sans-serif !important;
+  }
+  /* Pause Animations */
+.pause-animations * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .accessibility-button {
+    background-color: #1D4ED8 !important; /* Force blue */
+    color: white !important;
+    bottom: 20px; 
+    position: fixed;
+    padding: 12px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Keep it above everything */
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+
+  .accessibility-button:hover {
+    background-color: #1e40af; /* Darker blue */
+}
