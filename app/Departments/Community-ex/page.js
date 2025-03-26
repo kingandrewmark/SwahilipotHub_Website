@@ -33,14 +33,13 @@ const CommunityExperience = () => {
   return (
     <NextLayout>
       <Breadcrumb pageName="Community Department" />
-      <section className="community-section section-padding">
+      <section className="community-section section-padding" style={{ background: "linear-gradient(135deg, #87CEEB, #4682B4)" }}>
         <div className="container">
           <div className="section-title text-center">
             <h2 className="wow fadeInUp" data-wow-delay=".3s">
               <span className="text-primary">Tujenge Pamoja,</span>{" "}
               <span className="text-warning">Tufanye Tofauti</span>
             </h2>
-            
           </div>
 
           {/* Main Image */}
