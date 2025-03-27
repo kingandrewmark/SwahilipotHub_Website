@@ -8,6 +8,7 @@ import "@css/nice-select.css";
 import "@css/swiper-bundle.min.css";
 import "./globals.css";
 import Preloader from "@/layouts/Preloader";
+import AccessibilityWrapper from "@/components/AccessibilityWrapper"; // 👈 New Client Component
 
 export const metadata = {
   title: "Swahilipot Hub",
@@ -19,7 +20,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
       <Preloader />
+      <AccessibilityWrapper>
       {children}
+      </AccessibilityWrapper>
       </body>
     </html>
   );
