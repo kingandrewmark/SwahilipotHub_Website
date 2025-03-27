@@ -1,173 +1,165 @@
-const Faq = () => {
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+const FAQs = () => {
   return (
-    <section className="faq-section section-padding">
-      <div className="container">
-        <div className="section-title text-center">
-          <span className="sub-content wow fadeInUp">
-            <img src="assets/img/bale.png" alt="img" />
-            Some Question
-          </span>
-          <h2 className="wow fadeInUp" data-wow-delay=".3s">
-            Frequently Asked Questions
-          </h2>
+    <>
+      {/* FAQ */}
+      <div className="container content-space-1">
+        <div className="text-center">
+          <img
+            className="mb-5"
+            src="../assets/svg/illustrations/oc-looking-for-answers.svg"
+            alt="Illustration"
+            style={{ maxWidth: '15rem' }}
+          />
         </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-            <div className="faq-content">
-              <div className="faq-accordion">
-                <div className="accordion" id="accordion">
-                  <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".3s"
-                  >
-                    <h4 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq1"
-                        aria-expanded="false"
-                        aria-controls="faq1"
-                      >
-                        Why Need Digital Marketing For Build Business ?
-                      </button>
-                    </h4>
-                    <div
-                      id="faq1"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".5s"
-                  >
-                    <h4 className="accordion-header">
-                      <button
-                        className="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq2"
-                        aria-expanded="true"
-                        aria-controls="faq2"
-                      >
-                        How to Increase Web Traffic ?
-                      </button>
-                    </h4>
-                    <div
-                      id="faq2"
-                      className="accordion-collapse collapse show"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
-                    <h4 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq3"
-                        aria-expanded="false"
-                        aria-controls="faq3"
-                      >
-                        How to Development SEO Optimization ?
-                      </button>
-                    </h4>
-                    <div
-                      id="faq3"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
-                    <h4 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq4"
-                        aria-expanded="false"
-                        aria-controls="faq4"
-                      >
-                        Have Any Professional Team Member ?
-                      </button>
-                    </h4>
-                    <div
-                      id="faq4"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="accordion-item wow fadeInUp"
-                    data-wow-delay=".7s"
-                  >
-                    <h4 className="accordion-header">
-                      <button
-                        className="accordion-button collapsed"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#faq5"
-                        aria-expanded="false"
-                        aria-controls="faq5"
-                      >
-                        Have you any Global Customer ?
-                      </button>
-                    </h4>
-                    <div
-                      id="faq5"
-                      className="accordion-collapse collapse"
-                      data-bs-parent="#accordion"
-                    >
-                      <div className="accordion-body">
-                        Sed ut perspiciatis unde omnis iste natus error sit
-                        voluptatem accusantium doloremque laudan tiueaque quae
-                        abillo inventore veritatis et quasi architecto beatae
-                        vitae dicta explicabo voluptatem voluptas aspernatur
-                      </div>
-                    </div>
-                  </div>
+        {/* Heading */}
+        <div className="w-lg-65 text-center mx-lg-auto mb-7">
+          <h3>Frequently Asked Questions</h3>
+        </div>
+        {/* End Heading */}
+        {/* Accordion */}
+        <div className="w-lg-85 mx-lg-auto mb-7">
+          <div className="accordion accordion-flush" id="accordionFAQEg1">
+            {/* Accordion Item */}
+            <div className="accordion-item">
+              <div className="accordion-header" id="headingOneEg1">
+                <a
+                  className="accordion-button"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOneEg1"
+                  aria-expanded="true"
+                  aria-controls="collapseOneEg1"
+                >
+                  What is Swahilipot Hub?
+                </a>
+              </div>
+              <div
+                id="collapseOneEg1"
+                className="accordion-collapse collapse show"
+                aria-labelledby="headingOneEg1"
+                data-bs-parent="#accordionFAQEg1"
+              >
+                <div className="accordion-body">
+                  Swahilipot Hub is an innovation and technology hub located in
+                  Mombasa, Kenya. It serves as a community-driven space that
+                  promotes technology, entrepreneurship, and skills development
+                  in the coastal region of Kenya.
                 </div>
               </div>
             </div>
+            {/* End Accordion Item */}
+            {/* Accordion Item */}
+            <div className="accordion-item">
+              <div className="accordion-header" id="headingTwoEg1">
+                <a
+                  className="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwoEg1"
+                  aria-expanded="false"
+                  aria-controls="collapseTwoEg1"
+                >
+                  What programs and services does SwahiliPot Hub offer?
+                </a>
+              </div>
+              <div
+                id="collapseTwoEg1"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingTwoEg1"
+                data-bs-parent="#accordionFAQEg1"
+              >
+                <div className="accordion-body">
+                  SwahiliPot Hub offers a range of programs and services,
+                  including training workshops, mentorship programs, networking
+                  events, access to co-working spaces, and maker labs. These
+                  initiatives aim to empower individuals by providing them with
+                  the necessary resources and skills to participate in the
+                  digital economy.
+                </div>
+              </div>
+            </div>
+            {/* End Accordion Item */}
+            {/* Accordion Item */}
+            <div className="accordion-item">
+              <div className="accordion-header" id="headingThreeEg1">
+                <a
+                  className="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThreeEg1"
+                  aria-expanded="false"
+                  aria-controls="collapseThreeEg1"
+                >
+                  Who can benefit from Swahilipot Hub?
+                </a>
+              </div>
+              <div
+                id="collapseThreeEg1"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingThreeEg1"
+                data-bs-parent="#accordionFAQEg1"
+              >
+                <div className="accordion-body">
+                  Swahilipot Hub is open to entrepreneurs, developers,
+                  creatives, and anyone interested in technology and innovation.
+                  It caters to individuals who are looking to enhance their
+                  digital skills, collaborate on projects, and connect with
+                  like-minded individuals in the tech ecosystem.
+                </div>
+              </div>
+            </div>
+            {/* End Accordion Item */}
+
+            {/* Accordion Item */}
+            <div className="accordion-item">
+              <div className="accordion-header" id="headingFourEg1">
+                <a
+                  className="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFourEg1"
+                  aria-expanded="false"
+                  aria-controls="collapseFourEg1"
+                >
+                  Can I visit Swahilipot Hub as a visitor?
+                </a>
+              </div>
+              <div
+                id="collapseFourEg1"
+                className="accordion-collapse collapse"
+                aria-labelledby="headingFourEg1"
+                data-bs-parent="#accordionFAQEg1"
+              >
+                <div className="accordion-body">
+                  Yes, Swahilipot Hub welcomes visitors who are interested in
+                  learning more about their initiatives and the local tech
+                  ecosystem. You can visit the hub to attend events, participate
+                  in workshops, or simply network with professionals in the
+                  field. SwahiliPot Hub promotes an inclusive and vibrant
+                  community where individuals can exchange ideas and explore
+                  opportunities in technology and innovation.
+                </div>
+              </div>
+            </div>
+            {/* End Accordion Item */}
           </div>
         </div>
+        {/* End Accordion */}
+        {/* Info */}
+        <div className="text-center">
+          <p className="mb-0">Still have questions?</p>
+          <a className="link" href="mailto:info@swahilipothub.co.ke">
+            Contact our friendly support team{' '}
+            <i className="bi-chevron-right small ms-1" />
+          </a>
+        </div>
+        {/* End Info */}
       </div>
-    </section>
-  );
-};
-export default Faq;
+      {/* End FAQ */}
+    </>
+  )
+}
+
+export default FAQs
